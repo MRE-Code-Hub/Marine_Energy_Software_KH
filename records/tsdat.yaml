@@ -1,0 +1,30 @@
+Collection Method:
+  - Field
+  - Laboratory
+  - Modeling
+Country of Origin:
+  - Domestic (USA)
+Developer: PNNL
+Discipline:
+  - Data Conversion
+  - Data QA and QC
+License Type:
+  - Open-Source:
+      - BSD
+Life Cycle:
+  - Condition Monitoring
+  - Design
+Method:
+  - Data Acquisition
+Primary Use:
+  - Marine Renewable Energy
+Programming Language:
+  - Python
+TRL:
+  - 4-6
+Technology:
+  - Current
+  - OTEC
+  - Wave
+Title: TSDat
+Web Address: https://github.com/tsdat/tsdat

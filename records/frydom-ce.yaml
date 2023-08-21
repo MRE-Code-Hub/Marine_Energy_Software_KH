@@ -1,0 +1,27 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Developer: DICE-Engineering
+Discipline:
+  - Hydrodynamics
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Operations and Maintenance
+Method:
+  - Finite Element Analysis
+  - Linear Wave Theory
+  - Quasi-Static Loads
+Primary Use:
+  - Naval Architecture
+  - Ocean and Coastal Engineering
+Programming Language:
+  - C++
+TRL:
+  - 1-3
+Technology:
+  - Wave
+Title: FRyDoM-CE
+Web Address: https://github.com/baptistelabat/frydom

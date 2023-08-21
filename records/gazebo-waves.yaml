@@ -1,0 +1,28 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Dependencies: Gazebo
+Developer: Rhys Mainwaring
+Discipline:
+  - Multibody Dynamics
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+Method:
+  - Mechanics
+  - Wave Spectral Analysis
+Primary Use:
+  - Naval Architecture
+Programming Language:
+  - C++
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Wave
+Title: Gazebo Waves
+Web Address: https://github.com/srmainwaring/asv_wave_sim

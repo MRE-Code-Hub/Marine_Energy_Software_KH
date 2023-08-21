@@ -1,0 +1,24 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Dependencies: FVCOM
+Developer: EcoEnergyII
+Discipline:
+  - Extreme Events
+  - Site Characterization
+License Type:
+  - Open-Source:
+      - AGPL
+Life Cycle:
+  - Design
+Primary Use:
+  - Ocean and Coastal Engineering
+Programming Language:
+  - Python
+TRL:
+  - 1-3
+Technology:
+  - Current
+Title: PySeidon
+Web Address: https://github.com/theelectricbrain/PySeidon

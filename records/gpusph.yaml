@@ -1,0 +1,23 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Discipline:
+  - Hydrodynamics
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+Method:
+  - Smoothed-Particle Hydrodynamics (SPH)
+Primary Use:
+  - Other
+Programming Language:
+  - C++
+TRL:
+  - 1-3
+Technology:
+  - Wave
+Title: GPUSPH
+Web Address: https://github.com/GPUSPH/gpusph

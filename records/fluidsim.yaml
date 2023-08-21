@@ -1,0 +1,27 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Developer: Pierre Augier
+Discipline:
+  - Hydrodynamics
+License Type:
+  - Open-Source:
+      - CeCILL
+Life Cycle:
+  - Design
+Method:
+  - Boussinesq
+  - Incompressible Navier-Stokes
+  - Pseudo-Spectral
+  - Shallow Water Equations
+Primary Use:
+  - Other
+Programming Language:
+  - Python
+TRL:
+  - 1-3
+Technology:
+  - Current
+Title: Fluidsim
+Web Address: https://foss.heptapod.net/fluiddyn/fluidsim

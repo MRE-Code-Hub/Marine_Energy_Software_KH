@@ -1,0 +1,46 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Discipline:
+  - Array Effects
+  - Cost Assessment
+  - Decommissioning
+  - Deployment
+  - Electrical Network
+  - Environmental Impact
+  - Hydrodynamics
+  - Levelized Cost of Energy
+  - Mooring
+  - Operations and Maintenance
+  - Performance
+  - Power Take Off
+  - Reliability
+  - Site Characterization
+  - Substructure
+Interface:
+  - Graphical
+License Type:
+  - Open-Source:
+      - AGPL
+Life Cycle:
+  - Design
+Method:
+  - Cable Routing
+  - Ecological Risk Assessment
+  - Jensen's Wake Model
+  - Logistics
+  - Optimal Power Flow
+  - Quasi-Static Loads
+  - Static Loads
+Primary Use:
+  - Marine Renewable Energy
+Programming Language:
+  - Python
+TRL:
+  - 7-9
+Technology:
+  - Current
+  - Wave
+Title: DTOceanPlus
+Web Address: https://www.dtoceanplus.eu/

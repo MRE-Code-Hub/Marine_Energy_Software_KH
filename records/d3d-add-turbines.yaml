@@ -1,0 +1,28 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Developer: Simon Waldman
+Discipline:
+  - Array Effects
+  - Hydrodynamics
+License Type:
+  - Open-Source:
+      - MIT
+Life Cycle:
+  - Design
+Method:
+  - Shallow Water Equations
+Note: Requires Delft3D-Flow
+Primary Use:
+  - Marine Renewable Energy
+Programming Language:
+  - MATLAB
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Current
+Title: D3D_add_turbines
+Web Address: https://github.com/TeraWatt-EcoWatt2050/D3D_add_turbines

@@ -1,0 +1,31 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - Domestic (USA)
+Developer: Georgii Bocharov
+Discipline:
+  - Data Conversion
+  - Extreme Events
+  - Site Characterization
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+  - Operations and Maintenance
+Method:
+  - Extreme Value Analysis
+  - Wave Spectral Analysis
+Primary Use:
+  - Ocean and Coastal Engineering
+Programming Language:
+  - Python
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Current
+  - Wave
+Title: coastlib
+Web Address: https://github.com/georgebv/coastlib

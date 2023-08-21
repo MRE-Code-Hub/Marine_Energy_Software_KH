@@ -1,0 +1,26 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Developer: DualSPHysics Group
+Discipline:
+  - Hydrodynamics
+  - Performance
+  - Reliability
+License Type:
+  - Open-Source:
+      - LGPL
+Life Cycle:
+  - Design
+Method:
+  - Smoothed-Particle Hydrodynamics (SPH)
+Primary Use:
+  - Other
+Programming Language:
+  - C++
+TRL:
+  - 1-3
+Technology:
+  - Wave
+Title: DualSPHysics
+Web Address: https://dual.sphysics.org/

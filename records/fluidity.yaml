@@ -1,0 +1,30 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Developer: Dr Christopher C. Pain
+Discipline:
+  - Array Effects
+  - Hydrodynamics
+  - Performance
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+Method:
+  - Computational Fluid Dynamics (CFD)
+Primary Use:
+  - Ocean and Coastal Engineering
+Programming Language:
+  - C++
+  - Fortran
+  - Python
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Current
+Title: FLUIDITY
+Web Address: https://github.com/FluidityProject/fluidity

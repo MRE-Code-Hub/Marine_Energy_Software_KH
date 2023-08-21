@@ -1,0 +1,28 @@
+Collection Method:
+  - Field
+  - Modeling
+Country of Origin:
+  - Domestic (USA)
+Developer: NOAA
+Discipline:
+  - Extreme Events
+  - Site Characterization
+Interface:
+  - web-API
+Life Cycle:
+  - Design
+  - Operations and Maintenance
+Method:
+  - Tidal Harmonics
+  - Wave Spectral Analysis
+Primary Use:
+  - Ocean and Coastal Engineering
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Current
+  - Wave
+Title: CO-OPS API
+Web Address: https://api.tidesandcurrents.noaa.gov/api/prod/

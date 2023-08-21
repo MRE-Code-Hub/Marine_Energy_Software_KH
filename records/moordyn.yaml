@@ -1,0 +1,25 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - Domestic (USA)
+Developer: NREL
+Discipline:
+  - Mooring
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+Method:
+  - Lumped Mass Method (LMM)
+Note: Available with Apache license as part of openFAST
+Primary Use:
+  - Other
+Programming Language:
+  - C++
+TRL:
+  - 1-3
+Technology:
+  - Wave
+Title: MoorDyn
+Web Address: https://github.com/mattEhall/moordyn

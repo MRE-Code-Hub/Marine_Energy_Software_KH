@@ -1,0 +1,45 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Discipline:
+  - Array Effects
+  - Cost Assessment
+  - Deployment
+  - Electrical Network
+  - Environmental Impact
+  - Hydrodynamics
+  - Levelized Cost of Energy
+  - Mooring
+  - Operations and Maintenance
+  - Performance
+  - Reliability
+  - Substructure
+Interface:
+  - Graphical
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+Method:
+  - Cable Routing
+  - Ecological Risk Assessment
+  - Jensen's Wake Model
+  - Linear Wave Theory
+  - Logistics
+  - Optimal Power Flow
+  - Optimization
+  - Quasi-Static Loads
+  - Static Loads
+Primary Use:
+  - Marine Renewable Energy
+Programming Language:
+  - Python
+TRL:
+  - 7-9
+Technology:
+  - Current
+  - Wave
+Title: DTOcean
+Web Address: https://github.com/DTOcean/dtocean

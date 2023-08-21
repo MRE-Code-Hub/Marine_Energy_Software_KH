@@ -1,0 +1,25 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - Domestic (USA)
+Dependencies: OpenFOAM
+Developer: NREL
+Discipline:
+  - Array Effects
+  - Hydrodynamics
+  - Performance
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+Primary Use:
+  - Other
+Programming Language:
+  - C
+TRL:
+  - 7-9
+Technology:
+  - Current
+Title: SOWFA
+Web Address: https://www.nrel.gov/wind/nwtc/sowfa.html

@@ -1,0 +1,25 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Developer: Norwegian University of Science and Technology
+Discipline:
+  - Hydrodynamics
+  - Mooring
+  - Operations and Maintenance
+  - Safety and Security
+License Type:
+  - Open-Source:
+      - MIT
+Life Cycle:
+  - Design
+Primary Use:
+  - Naval Architecture
+Programming Language:
+  - JavaScript
+TRL:
+  - 1-3
+Technology:
+  - Wave
+Title: Vessel.js
+Web Address: https://github.com/shiplab/vesseljs

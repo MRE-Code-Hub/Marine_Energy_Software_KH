@@ -1,0 +1,34 @@
+Collection Method:
+  - Field
+  - Laboratory
+Country of Origin:
+  - Domestic (USA)
+Developer: Open Robotics
+Discipline:
+  - Control
+  - Instrumentation
+Interface:
+  - Graphical
+License Type:
+  - Open-Source:
+      - BSD
+Life Cycle:
+  - Condition Monitoring
+  - Design
+  - Operations and Maintenance
+Method:
+  - Robotics Middleware
+Primary Use:
+  - Other
+Programming Language:
+  - C++
+  - Other
+  - Python
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Wave
+Title: Robot Operating System (ROS)
+Web Address: https://www.ros.org/

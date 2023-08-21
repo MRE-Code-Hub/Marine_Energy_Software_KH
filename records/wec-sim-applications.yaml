@@ -1,0 +1,23 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - Domestic (USA)
+Dependencies: WEC-Sim
+Developer: Sandia National Laboratories
+Discipline:
+  - Hydrodynamics
+License Type:
+  - Open-Source:
+      - Apache
+Life Cycle:
+  - Design
+Primary Use:
+  - Marine Renewable Energy
+Programming Language:
+  - MATLAB
+TRL:
+  - 1-3
+Technology:
+  - Wave
+Title: WEC-Sim Applications
+Web Address: https://github.com/WEC-Sim/WEC-Sim_Applications

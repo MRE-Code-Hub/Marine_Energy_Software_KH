@@ -1,0 +1,24 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Dependencies: MIKE21/3
+Developer: Simon Waldman
+Discipline:
+  - Array Effects
+  - Hydrodynamics
+License Type:
+  - Open-Source:
+      - MIT
+Life Cycle:
+  - Design
+Primary Use:
+  - Marine Renewable Energy
+Programming Language:
+  - MATLAB
+TRL:
+  - 7-9
+Technology:
+  - Current
+Title: MIKE_add_turbines
+Web Address: https://github.com/TeraWatt-EcoWatt2050/MIKE_add_turbines

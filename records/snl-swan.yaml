@@ -1,0 +1,26 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - Domestic (USA)
+Dependencies: SWAN
+Developer: Sandia
+Discipline:
+  - Array Effects
+  - Environmental Impact
+  - Hydrodynamics
+  - Performance
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+Primary Use:
+  - Marine Renewable Energy
+Programming Language:
+  - Fortran
+TRL:
+  - 7-9
+Technology:
+  - Wave
+Title: SNL-SWAN
+Web Address: https://github.com/SNL-WaterPower/SNL-SWAN

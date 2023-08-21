@@ -1,0 +1,25 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - Domestic (USA)
+Dependencies: ANSYS Fluent
+Developer: Teymour Javaherchi
+Discipline:
+  - Hydrodynamics
+  - Performance
+License Type:
+  - Open-Source:
+      - MIT
+Life Cycle:
+  - Design
+Primary Use:
+  - Marine Renewable Energy
+Programming Language:
+  - MATLAB
+TRL:
+  - 1-3
+  - 4-6
+Technology:
+  - Current
+Title: full-scale-model-MHK
+Web Address: https://github.com/nnmrec/full-scale-model-MHK

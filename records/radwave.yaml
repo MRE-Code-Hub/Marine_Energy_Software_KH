@@ -1,0 +1,28 @@
+Collection Method:
+  - Field
+  - Modeling
+Country of Origin:
+  - International
+Developer: Tristan Salles
+Discipline:
+  - Site Characterization
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+  - Operations and Maintenance
+Method:
+  - Wave Spectral Analysis
+Primary Use:
+  - Ocean and Coastal Engineering
+Programming Language:
+  - Python
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Wave
+Title: RADWave
+Web Address: https://github.com/pyReef-model/RADWave

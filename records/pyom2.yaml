@@ -1,0 +1,26 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Developer: Carsten Eden
+Discipline:
+  - Site Characterization
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+  - Operations and Maintenance
+Method:
+  - Primitive Equations
+Primary Use:
+  - Ocean and Coastal Engineering
+Programming Language:
+  - Fortran
+  - Python
+TRL:
+  - 1-3
+Technology:
+  - Current
+Title: pyOM2
+Web Address: https://github.com/ceden/pyOM2
