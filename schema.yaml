@@ -340,7 +340,7 @@ properties:
       supported by the software package.
     items:
       $ref: '#/$defs/TRLs'
-    title: Trl
+    title: TRL
     type: array
     uniqueItems: true
   Technology:
