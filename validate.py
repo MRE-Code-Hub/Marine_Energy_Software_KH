@@ -4,7 +4,7 @@ from pathlib import Path
 
 import yaml
 from yaml import CLoader as Loader
-from jsonschema import Draft202012Validator, ValidationError
+from jsonschema import Draft202012Validator
 
 
 def main():
