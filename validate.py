@@ -1,4 +1,5 @@
 
+import argparse
 from pathlib import Path
 
 import yaml
@@ -7,6 +8,33 @@ from jsonschema import Draft202012Validator, ValidationError
 
 
 def main():
+    
+    parser = argparse.ArgumentParser(
+        description="Validate database schema and records")
+    parser.add_argument('action', choices=['schema', 'records'])
+    args = parser.parse_args()
+    
+    if args.action == 'schema':
+        validate_schema()
+    elif args.action == 'records':
+        validate_records()
+    else:
+        RuntimeError("I'm sorry, Dave. I'm afraid I can't do that.")
+
+
+def validate_schema():
+    
+    db_repo_path = Path(".")
+    schema_path = db_repo_path / "schema.yaml"
+    assert schema_path.is_file()
+    
+    with open(schema_path, "r") as f:
+        schema = yaml.load(f, Loader)
+    
+    Draft202012Validator.check_schema(schema)
+
+
+def validate_records():
     
     db_repo_path = Path(".")
     schema_path = db_repo_path / "schema.yaml"

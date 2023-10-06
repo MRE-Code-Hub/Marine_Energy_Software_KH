@@ -1,7 +1,7 @@
 name: validate-records
 on: [push, pull_request]
 jobs:
-  validate:
+  schema:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -10,4 +10,15 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
       - name: Validate records
-        run: python validate.py
+        run: python validate.py schema
+  records:
+    needs: schema
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Validate records
+        run: python validate.py records
