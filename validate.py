@@ -49,7 +49,6 @@ def validate_records():
     validator = Draft202012Validator(schema)
     count = 0
     error_count = 0
-    raise_error = False
     
     for p in records_path.iterdir():
         
@@ -68,9 +67,8 @@ def validate_records():
         print("")
         
         error_count += 1
-        raise_error = True
     
-    if raise_error:
+    if error_count:
         raise RuntimeError(f"{error_count} validation error(s) detected")
     
     print(f"Validated {count} records")
