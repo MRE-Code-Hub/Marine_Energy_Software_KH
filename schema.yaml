@@ -225,6 +225,7 @@ $defs:
     - Other
     title: Technologies
     type: string
+additionalProperties: false
 description: This is the schema for the MRE software database, written using JSON
   Schema.
 properties:
@@ -318,6 +319,10 @@ properties:
     default: null
     description: Underlying theory or method of the software package.
     title: Method
+  Note:
+    description: Additional notes relating to the package.
+    title: Note
+    type: string
   Primary Use:
     description: The primary technologies applicable to the software package.
     items:
