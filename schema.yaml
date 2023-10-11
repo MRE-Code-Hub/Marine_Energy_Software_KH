@@ -322,7 +322,10 @@ properties:
   Note:
     description: Additional notes relating to the package.
     title: Note
-    type: string
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
   Primary Use:
     description: The primary technologies applicable to the software package.
     items:
