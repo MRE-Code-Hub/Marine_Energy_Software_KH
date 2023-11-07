@@ -6,6 +6,8 @@ Dependencies: WEC-Sim
 Developer: Sandia National Laboratories
 Discipline:
   - Hydrodynamics
+Funding:
+  - WPTO
 License Type:
   - Open-Source:
       - Apache
