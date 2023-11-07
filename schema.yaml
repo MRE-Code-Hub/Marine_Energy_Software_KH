@@ -265,6 +265,13 @@ properties:
     description: Major dependencies and add-on packages of the software package, e.g.
       for pre- and post-processing.
     title: Dependencies
+  Description:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    description: The description of the software package.
+    title: Description
   Developer:
     anyOf:
     - type: string
