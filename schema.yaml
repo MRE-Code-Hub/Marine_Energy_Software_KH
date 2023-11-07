@@ -57,6 +57,11 @@ $defs:
     - Visualization
     title: Disciplines
     type: string
+  FundingBodies:
+    enum:
+    - WPTO
+    title: Funding Bodies
+    type: string
   Interfaces:
     enum:
     - Graphical
@@ -278,6 +283,16 @@ properties:
     default: null
     description: Applicable disciplines or functionalities of the software package.
     title: Discipline
+  Funding:
+    anyOf:
+    - items:
+        $ref: '#/$defs/FundingBodies'
+      type: array
+      uniqueItems: true
+    - type: 'null'
+    default: null
+    description: Sources of funding received for the software package.
+    title: Funding
   Interface:
     anyOf:
     - items:
