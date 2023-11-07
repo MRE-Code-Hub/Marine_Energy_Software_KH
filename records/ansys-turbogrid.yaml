@@ -2,6 +2,15 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  Ansys TurboGrid software includes novel technology that targets complete
+  automation combined with an unprecedented level of mesh quality for even the
+  most complex blade shapes. The desired final mesh size is defined (and,
+  optionally, the blade boundary layer resolution), and all the other steps are
+  performed automatically to produce a mesh of extremely high quality. Grid
+  angles are exceptionally good, mesh sizes transition smoothly, and high
+  aspect-ratio elements are generated in the near-wall regions to resolve these
+  regions efficiently and capture boundary layer flows accurately.
 Developer: ANSYS
 Discipline:
   - Hydrodynamics

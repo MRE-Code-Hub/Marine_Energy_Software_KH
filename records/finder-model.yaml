@@ -2,6 +2,16 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  The FINancial impacts of Distributed Energy Resources (FINDER) model
+  quantifies changes in utility costs and revenues, as well as the financial
+  impacts to utility shareholders and customers with the addition of demand-side
+  and distributed energy resources (DERs) like energy efficiency, demand
+  response, and distributed solar. The model can also assess incremental changes
+  to utility regulatory and business models, like alternative rate designs,
+  revenue decoupling, and utility financial incentives, and the efficacy of such
+  approaches to mitigate negative financial impacts due to increased DER
+  adoption.
 Developer: Lawrence Berkeley National Laboratory
 Discipline:
   - Cost Assessment

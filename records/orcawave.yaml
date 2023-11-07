@@ -2,6 +2,10 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  OrcaWave is a diffraction analysis program which calculates loading and
+  response for wet bodies due to surface water waves via potential flow theory,
+  as a Boundary Element Method (BEM) solver.
 Developer: Orcina Ltd.
 Discipline:
   - Hydrodynamics
