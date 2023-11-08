@@ -3,6 +3,9 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  ORCA (met Ocean data tRansformation, Classification and Analysis) is a MATLAB
+  Tool for analysis, classification and transformation of metocean data.
 Developer: Deltares
 Discipline:
   - Data Conversion

@@ -3,6 +3,11 @@ Collection Method:
 Country of Origin:
   - International
 Dependencies: OpenFOAM
+Description: |-
+  CastNet is a flexible modelling and simulation environment with direct case
+  set up for CFD solvers e.g. OpenFoam. The application generates high-quality
+  hybrid meshes using tetrahedral, prismatic, pyramidal and hexahedral elements
+  and provides state of the art boundary layer meshing capabilities.
 Developer: DHCAE Tools
 Discipline:
   - Meshing
