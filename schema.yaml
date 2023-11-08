@@ -334,7 +334,7 @@ properties:
     title: Life Cycle
     type: array
     uniqueItems: true
-  LogoURL:
+  Logo URL:
     anyOf:
     - $ref: "#/$defs/saneUrl"
     - type: 'null'
