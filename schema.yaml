@@ -1,4 +1,7 @@
 $defs:
+  saneUrl:
+    format: uri
+    pattern: "^https?://"
   CollectionMethods:
     enum:
     - Modeling
@@ -331,6 +334,12 @@ properties:
     title: Life Cycle
     type: array
     uniqueItems: true
+  LogoURL:
+    anyOf:
+    - $ref: "#/$defs/saneUrl"
+    - type: 'null'
+    default: null
+    description: Link to software or company logo.
   Method:
     anyOf:
     - items:
@@ -387,7 +396,7 @@ properties:
     type: string
   Web Address:
     anyOf:
-    - type: string
+    - $ref: "#/$defs/saneUrl"
     - type: 'null'
     default: null
     description: The URL of the software package.
