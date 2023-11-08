@@ -2,6 +2,9 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  WaveDyn is DNV's wave energy modelling tool, allowing analysis of the
+  performance of concept wave energy converter designs.
 Developer: DNV GL
 Discipline:
   - Hydrodynamics
@@ -24,4 +27,4 @@ TRL:
 Technology:
   - Wave
 Title: WaveDyn
-Web Address: https://www.offshore-energy.biz/gl-garrad-hassan-releases-wavedyn-ireland/
+Web Address: https://www.dnv.com/services/wave-and-tidal-design-support-5653
