@@ -2,6 +2,9 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  An array planning tool that enables optimization of wave farm designs to
+  maximize energy yield and return on investment, whilst minimizing risks.
 Developer: DNV GL
 Discipline:
   - Array Effects
@@ -21,4 +24,4 @@ TRL:
 Technology:
   - Wave
 Title: WaveFarmer
-Web Address: https://www.dnv.com/news/dnv-gl-launches-the-world-s-first-commercially-available-marine-energy-planning-tools-with-wavefarmer-and-tidalfarmer-7113
+Web Address: https://www.dnv.com/services/wave-and-tidal-resource-assessment-5651
