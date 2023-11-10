@@ -2,6 +2,11 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  The Marine Energy Atlas is an interactive mapping tool developed by NREL to
+  explore potential for marine energy resources. Powered by multilab,
+  high-resolution data sets, the atlas maps U.S. wave, tidal, riverine current,
+  ocean current, and ocean thermal resources.
 Developer: NREL
 Discipline:
   - Performance
@@ -13,6 +18,7 @@ Interface:
 Life Cycle:
   - Deployment
   - Design
+Logo URL: https://www.nrel.gov/assets/images/nrel-logo-web.svg
 Method:
   - Geographic Information System (GIS)
 Primary Use:
