@@ -2,6 +2,12 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  The Coastal Modeling System is an integrated 2D numerical modeling system for
+  simulating waves, current, water level, sediment transport, and morphology
+  change at coastal inlets and entrances. Emphasis of the CMS is on navigation
+  channel performance and sediment exchange between the inlet and adjacent
+  beaches.
 Developer: US Army Corps of Engineers
 Discipline:
   - Extreme Events
@@ -14,6 +20,7 @@ License Type:
 Life Cycle:
   - Design
   - Operations and Maintenance
+Logo URL: https://cirp.usace.army.mil/_images/USACE_logo.png
 Method:
   - Shallow Water Equations
 Primary Use:

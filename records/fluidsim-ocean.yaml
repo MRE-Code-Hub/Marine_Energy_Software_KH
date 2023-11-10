@@ -2,6 +2,10 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Dependencies: Fluidsim
+Description: |-
+  Fluidsim_ocean provides solvers useful for studying the oceanic dynamics
+  implemented using the CFD framework fluidsim.
 Developer: Pierre Augier
 Discipline:
   - Hydrodynamics
@@ -11,6 +15,7 @@ License Type:
 Life Cycle:
   - Design
   - Operations and Maintenance
+Logo URL: https://avatars.githubusercontent.com/u/29888939
 Method:
   - Shallow Water Equations
 Primary Use:

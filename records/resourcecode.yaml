@@ -2,6 +2,10 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  The aim of RESOURCECODE is to create an integrated marine data toolbox for
+  developers of ocean energy devices and their supply chain, which will reduce
+  barriers and promote growth in renewable energy.
 Developer: IFREMER
 Discipline:
   - Extreme Events
@@ -12,6 +16,7 @@ License Type:
       - GPL
 Life Cycle:
   - Design
+Logo URL: https://gitlab.ifremer.fr/uploads/-/system/project/avatar/1881/ResourceCODE.png
 Method:
   - Statistics
 Primary Use:

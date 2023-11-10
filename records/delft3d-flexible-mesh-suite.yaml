@@ -2,6 +2,11 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  The Delft3D FM Suite can simulate storm surges, hurricanes, tsunamis,
+  detailed flows and water levels, waves, sediment transport and morphology,
+  water quality and ecology, and is capable of handling the interactions
+  between these processes.
 Developer: Deltares
 Discipline:
   - Extreme Events
@@ -15,6 +20,7 @@ License Type:
 Life Cycle:
   - Design
   - Operations and Maintenance
+Logo URL: https://project-geolab.eu/wp-content/uploads/2021/03/Deltares_logo_D-blauw_RGB.png
 Method:
   - Shallow Water Equations
   - Wave Spectral Analysis

@@ -2,6 +2,14 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  DTOceanPlus is an open-source suite of modular design tools for the
+  selection, development, deployment, and assessment of ocean energy systems.
+  The aim of the software is to accelerate the commercialisation of the Ocean
+  Energy sector, focusing on wave and tidal-stream devices. The tools will
+  support the entire technology innovation and advancement process from
+  concept, through development, to deployment, and will be applicable at a
+  range of technology levels: sub-system, device, and array.
 Discipline:
   - Array Effects
   - Cost Assessment
@@ -25,6 +33,7 @@ License Type:
       - AGPL
 Life Cycle:
   - Design
+Logo URL: https://dtoceanplus.gitlab.io/documentation/_images/dtoceanplus_logo.svg
 Method:
   - Cable Routing
   - Ecological Risk Assessment
@@ -43,4 +52,4 @@ Technology:
   - Current
   - Wave
 Title: DTOceanPlus
-Web Address: https://www.dtoceanplus.eu/
+Web Address: https://dtoceanplus.gitlab.io/documentation/

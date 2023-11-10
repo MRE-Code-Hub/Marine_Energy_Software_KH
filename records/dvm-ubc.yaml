@@ -2,15 +2,23 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  A new formulation of the discrete vortex method (DVM-UBC) is proposed to
+  describe the behavior of turbines and unsteady flow mathematically, and a
+  numerical model is developed to predict the performance, the unsteady wake
+  and acoustic emission of a stand-alone turbine using DVM-UBC.
 Developer: Ye Li
 Discipline:
   - Array Effects
+  - Environmental Impact
   - Hydrodynamics
   - Performance
 Life Cycle:
   - Design
+Logo URL: https://brand.ubc.ca/files/2018/09/Logos_1_2CrestDownload_768px.jpg
 Method:
   - Discrete Vortex Method
+Note: Unknown availability
 Primary Use:
   - Marine Renewable Energy
 TRL:

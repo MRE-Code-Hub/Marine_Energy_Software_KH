@@ -2,6 +2,11 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  Gmsh is an open source 3D finite element mesh generator with a built-in CAD
+  engine and post-processor. Its design goal is to provide a fast, light and
+  user-friendly meshing tool with parametric input and flexible visualization
+  capabilities.
 Discipline:
   - Meshing
 Interface:
@@ -11,6 +16,7 @@ License Type:
       - GPL
 Life Cycle:
   - Design
+Logo URL: https://gmsh.info/gallery/gmsh_title.png
 Primary Use:
   - Other
 Programming Language:

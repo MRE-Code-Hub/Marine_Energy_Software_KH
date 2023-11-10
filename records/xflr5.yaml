@@ -2,6 +2,12 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  XFLR5 is an analysis tool for airfoils, wings and planes operating at low
+  Reynolds Numbers. It includes:
+  1. XFoil's Direct and Inverse analysis capabilities
+  2. Wing design and analysis capabilities based on the Lifting Line Theory,
+     on the Vortex Lattice Method, and on a 3D Panel Method
 Developer: A. Deperrois
 Discipline:
   - Hydrodynamics
@@ -10,6 +16,7 @@ License Type:
       - GPL
 Life Cycle:
   - Design
+Logo URL: http://www.xflr5.tech/images/XFLR5_Logo.png
 Method:
   - Panel Method
   - Vortex Lattice Method (VLM)

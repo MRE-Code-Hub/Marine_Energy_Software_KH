@@ -2,6 +2,9 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  Arup Convex (Concrete Viability Explorer) is a decision-making tool, which
+  allows developers to explore the use of concrete in their WEC designs.
 Developer: Arup
 Discipline:
   - Cost Assessment
@@ -12,6 +15,7 @@ Interface:
   - Web Page
 Life Cycle:
   - Design
+Logo URL: https://convex.ade.arup.com/assets/Convex-logo.svg
 Method:
   - Life Cycle Assessment
   - Mechanics

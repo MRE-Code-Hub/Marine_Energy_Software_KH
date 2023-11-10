@@ -3,6 +3,10 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  MetOcean Solutions' forecast API offers point time-series data for any
+  location on earth. The API delivers atmospheric, hydrodynamic, and wave data
+  from local high resolution and global forecast models.
 Developer: MetOcean Solutions
 Discipline:
   - Site Characterization
@@ -13,6 +17,7 @@ License Type:
 Life Cycle:
   - Design
   - Operations and Maintenance
+Logo URL: https://oceanexpert.org/uploads/institutes/18747/instituteLogo.jpg
 Primary Use:
   - Ocean and Coastal Engineering
 TRL:

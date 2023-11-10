@@ -2,6 +2,13 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  The HydroSource digital platform consists of hydropower related datasets,
+  data model, visualizations and analytics tools that supports and enables
+  hydropower research and development on topics of national interest such as
+  U.S. hydropower market acceleration, deployment, resources assessment and
+  characterization, environmental impact reduction, technology-to-market
+  activities, and climate change impact assessment.
 Developer: Oak Ridge National Laboratory
 Discipline:
   - Environmental Impact
@@ -12,6 +19,7 @@ Interface:
   - Web Page
 Life Cycle:
   - Design
+Logo URL: https://standards.ornl.gov/wp-content/themes/sparkling-child/img/ORNL%20Two-line_green.svg
 Primary Use:
   - Other
 TRL:

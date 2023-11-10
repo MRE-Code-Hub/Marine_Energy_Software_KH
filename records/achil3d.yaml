@@ -2,15 +2,18 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
-Developer: ECN
+Description: |-
+  A time domain, seakeeping, boundary-element method, computational code.
+Developer: Ecole Centrale de Nantes
 Discipline:
   - Hydrodynamics
   - Performance
 Life Cycle:
   - Design
+Logo URL: https://www.ec-nantes.fr/uas/ksup/LOGO/LogoECN_ZoneExclusion_siteWeb_Q.png
 Method:
   - Boundary Element Method (BEM)
-Note: Software appears to no longer be available
+Note: ECN in-house code
 Primary Use:
   - Naval Architecture
 TRL:
@@ -19,3 +22,4 @@ TRL:
 Technology:
   - Wave
 Title: Achil3D
+Web Address: https://hal.science/hal-01155775/document

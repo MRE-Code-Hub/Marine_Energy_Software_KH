@@ -2,6 +2,11 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  The U.S. Energy Information Administration is committed to its free and open
+  data by making it available through an Application Programming Interface
+  (API) and its open data tools. EIA's API is multi-facetted and contains
+  time-series data sets organized by the main energy categories.
 Developer: U.S. Energy Information Administration
 Discipline:
   - Control
@@ -13,6 +18,7 @@ Interface:
 Life Cycle:
   - Design
   - Operations and Maintenance
+Logo URL: https://www.eia.gov/about/images/eiabuglogo.jpg
 Note: Aggregation database
 Primary Use:
   - Marine Renewable Energy

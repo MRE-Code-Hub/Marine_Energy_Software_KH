@@ -3,6 +3,10 @@ Collection Method:
 Country of Origin:
   - Domestic (USA)
   - International
+Description: |-
+  Marxan tools are designed to help users create cost-effective spatial plans
+  that meet predefined conservation goals and targets while minimising
+  constraints to achieve them.
 Discipline:
   - Environmental Impact
 Interface:
@@ -12,6 +16,7 @@ License Type:
   - Other
 Life Cycle:
   - Design
+Logo URL: https://marxansolutions.org/wp-content/uploads/2020/01/Marxan.png
 Method:
   - Conservation Planning
   - Geographic Information System (GIS)

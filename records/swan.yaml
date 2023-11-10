@@ -2,6 +2,12 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  SWAN (Simulating Waves Nearshore) is a third-generation wave model, developed
+  at Delft University of Technology, that computes random, short-crested wind-
+  generated waves in coastal regions and inland waters. For more information
+  about SWAN, see a short overview of model features. This list reflects on the
+  scientific relevance of the development of SWAN.
 Developer: TU Delft
 Discipline:
   - Extreme Events
@@ -12,6 +18,7 @@ License Type:
 Life Cycle:
   - Design
   - Operations and Maintenance
+Logo URL: https://swanmodel.sourceforge.io/platen/swanlogo.jpg
 Method:
   - Wind Wave Model
 Primary Use:
