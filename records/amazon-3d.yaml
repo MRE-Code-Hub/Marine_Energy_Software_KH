@@ -2,15 +2,21 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  AMAZON-3D is a numerical wave tank (NWT) for the study of wave loading on a
+  wave energy converter device. The NWT is based on a two fluid free surface
+  capturing and the Cartesian cut cell method, which provides a boundary-fitted
+  grid for both static and moving boundaries.
 Developer: Manchester Metropolitan University
 Discipline:
   - Hydrodynamics
 Life Cycle:
   - Design
+Logo URL: https://www.mmu.ac.uk/themes/custom/rutherford/images/logo.svg
 Method:
   - Cartesian Cut-Cell
   - Euler Equations
-Note: Not available
+Note: MMU in-house code
 Primary Use:
   - Marine Renewable Energy
 TRL:
@@ -19,4 +25,4 @@ TRL:
 Technology:
   - Wave
 Title: AMAZON-3D
-Web Address: http://www.homepages.ed.ac.uk/shs/Wave%20Energy/EWTEC%202009/EWTEC%202009%20(D)/papers/208.pdf
+Web Address: https://www.researchgate.net/profile/Chris-Williams-70/publication/268394802_Extreme_Wave_Loading_on_Offshore_Wave_Energy_Devices_using_CFD_a_Hierarchical_Team_Approach/links/54dde2410cf2814662eba937/Extreme-Wave-Loading-on-Offshore-Wave-Energy-Devices-using-CFD-a-Hierarchical-Team-Approach.pdf
