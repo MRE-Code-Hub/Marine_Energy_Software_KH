@@ -2,6 +2,17 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  The Emissions & Generation Resource Integrated Database (eGRID) is a
+  comprehensive source of data from EPA's Clean Air Markets Division on the
+  environmental characteristics of almost all electric power generated in the
+  United States.
+
+  The data includes emissions, emission rates, generation, heat input, resource
+  mix, and many other attributes. eGRID is typically used for greenhouse gas
+  registries and inventories, carbon footprints, consumer information
+  disclosure, emission inventories and standards, power market changes, and
+  avoided emission estimates.
 Developer: U.S. Environmental Protection Agency
 Discipline:
   - Cost Assessment
@@ -10,6 +21,7 @@ Interface:
   - Web Page
 Life Cycle:
   - Design
+Logo URL: https://www.epa.gov/themes/epa_theme/images/epa-seal.svg
 Primary Use:
   - Other
 TRL:
