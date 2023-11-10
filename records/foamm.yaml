@@ -4,7 +4,7 @@ Country of Origin:
   - International
 Description: |-
   Finite Order Approximation by Moment-Matching is a Matlab application that
-  implements a moment- matching based frequency-domain identification
+  implements a moment-matching based frequency-domain identification
   algorithm. This procedure was primarily developed for marine applications
   (specifically, wave energy). The identification of both the radiation kernel
   frequency response and the force-to-motion dynamics of a marine structure can
