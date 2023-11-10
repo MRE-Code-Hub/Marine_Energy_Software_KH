@@ -2,11 +2,15 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  MARS is a three dimensional coastal hydrodynamical model used to provide
+  realistic descriptions of coastal phenomena.
 Developer: Ifremer
 Discipline:
   - Site Characterization
 Life Cycle:
   - Design
+Logo URL: https://upload.wikimedia.org/wikipedia/fr/9/91/Ifremer.svg
 Method:
   - Shallow Water Equations
 Primary Use:
@@ -18,4 +22,4 @@ TRL:
 Technology:
   - Current
 Title: MARS
-Web Address: https://wwz.ifremer.fr/mars3d/content/download/77020/986732/version/1/file/2009_11_22_DocMARS_GB.pdf
+Web Address: https://mars3d.ifremer.fr/
