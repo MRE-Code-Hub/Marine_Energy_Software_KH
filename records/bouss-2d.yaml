@@ -2,12 +2,25 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  BOUSS-2D is a comprehensive numerical model for simulating the propagation
+  and transformation of waves in coastal regions and harbors based on a
+  time-domain solution of Boussinesq-type equations. The governing equations
+  are uniformly valid from deep to shallow water and can simulate most of the
+  phenomena of interest in the nearshore zone and harbor basins including
+  shoaling/refraction over variable topography, reflection/diffraction near
+  structures, energy dissipation due to wave breaking and bottom friction,
+  cross-spectral energy transfer due to nonlinear wave-wave interactions,
+  breaking-induced longshore and rip currents, wave-current interaction and
+  wave interaction with porous structures. Many processes at inlets and harbors
+  can be studied using BOUSS-2D.
 Developer: US Army Corps of Engineers
 Discipline:
   - Extreme Events
   - Site Characterization
 Life Cycle:
   - Design
+Logo URL: https://cirp.usace.army.mil/_images/USACE_logo.png
 Method:
   - Boussinesq
 Primary Use:
