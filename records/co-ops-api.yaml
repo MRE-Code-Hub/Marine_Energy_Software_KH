@@ -3,6 +3,10 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  The CO-OPS (Center for Operational Oceanographic Products and Services) API
+  for data retrieval can be used to retrieve observations and predictions from
+  CO-OPS stations.
 Developer: NOAA
 Discipline:
   - Extreme Events
@@ -12,6 +16,7 @@ Interface:
 Life Cycle:
   - Design
   - Operations and Maintenance
+Logo URL: https://oceanservice.noaa.gov/bootstrap/img/noaa-logo-rgb-2022.svg
 Method:
   - Tidal Harmonics
   - Wave Spectral Analysis
