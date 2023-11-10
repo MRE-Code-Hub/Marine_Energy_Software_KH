@@ -3,6 +3,9 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  MACE is a MATLAB toolbox collects MATLAB .m functions for coastal engineers
+  and researchers.
 Developer: Nobuhito Mori
 Discipline:
   - Site Characterization
