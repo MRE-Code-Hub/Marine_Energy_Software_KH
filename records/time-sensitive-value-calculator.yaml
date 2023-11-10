@@ -2,6 +2,13 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  The Time-Sensitive Value Calculator is a publicly available, free, Excel-based
+  tool by Berkeley Lab that estimates the value of energy efficiency and other
+  distributed energy resource (DER) measures using hourly estimates of
+  electricity system costs. The tool takes hourly profiles of up to six measures
+  at a time and monetizes their value for six value streams, producing outputs
+  in tabular and graphical formats.
 Developer: Lawrence Berkeley National Laboratory
 Discipline:
   - Cost Assessment
@@ -9,6 +16,7 @@ License Type:
   - Other
 Life Cycle:
   - Design
+Logo URL: https://emp.lbl.gov/sites/all/files/logo.png
 Primary Use:
   - Other
 TRL:

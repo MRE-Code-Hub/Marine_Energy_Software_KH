@@ -2,6 +2,13 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  AVL is a program for the aerodynamic and flight-dynamic analysis of rigid
+  aircraft of arbitrary configuration. It employs an extended vortex lattice
+  model for the lifting surfaces, together with a slender-body model for
+  fuselages and nacelles. General nonlinear flight states can be specified. The
+  flight dynamic analysis combines a full linearization of the aerodynamic model
+  about any flight state, together with specified mass properties.
 Developer: MIT
 Discipline:
   - Hydrodynamics
@@ -10,6 +17,7 @@ License Type:
       - GPL
 Life Cycle:
   - Design
+Logo URL: https://web.mit.edu/drela/Public/web/avl/avl_logo.gif
 Method:
   - Vortex Lattice Method (VLM)
 Primary Use:

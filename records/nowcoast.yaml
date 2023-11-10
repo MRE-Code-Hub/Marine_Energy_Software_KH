@@ -2,6 +2,10 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  nowCOAST is a GIS-based web mapping portal displaying near real-time
+  observations, analyses, tide predictions, model guidance, watches/warnings,
+  and forecasts for the coastal United States.
 Developer: NOAA
 Discipline:
   - Safety and Security
@@ -14,6 +18,7 @@ Life Cycle:
   - Deployment
   - Design
   - Operations and Maintenance
+Logo URL: https://nowcoast.noaa.gov/static/media/noaa_logo_small_alpha_cropped.0603f9dbcb7b3768c968.png
 Method:
   - Geographic Information System (GIS)
 Primary Use:
