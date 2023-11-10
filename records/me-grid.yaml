@@ -2,6 +2,10 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  ME-Grid is a tool for assessing the economics and resilience of Marine
+  Renewable generation into the power grid. This is an open-source tool used to
+  promote research and education in Marine Renewable energy.
 Developer: The University of North Carolina
 Discipline:
   - Cost Assessment
@@ -14,6 +18,7 @@ License Type:
       - Apache
 Life Cycle:
   - Design
+Logo URL: https://me-grid.com/static/media/ME-Grid.269f51db58d22e545651.png
 Method:
   - Optimal Power Flow
   - Optimization
