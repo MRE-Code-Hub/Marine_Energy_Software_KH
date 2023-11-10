@@ -2,6 +2,17 @@ Collection Method:
   - Field
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  A robust three-dimensional solver was needed to accurately and efficiently
+  estimate the time sequence of locations of fish tagged with acoustic
+  transmitters and vocalizing marine mammals to describe in sufficient detail
+  the information needed to assess the function of dam-passage design
+  alternatives and support Marine Renewable Energy. An approximate maximum
+  likelihood solver was developed using measurements of time difference of
+  arrival from all hydrophones in receiving arrays on which a transmission was
+  detected. Field experiments demonstrated that the developed solver performed
+  significantly better in tracking efficiency and accuracy than other solvers
+  described in the literature.
 Developer: PNNL
 Discipline:
   - Environmental Impact
@@ -12,6 +23,7 @@ Life Cycle:
   - Decommissioning
   - Deployment
   - Operations and Maintenance
+Logo URL: https://www.pnnl.gov/themes/gesso/images/pnnl-logo-abbreviated-aligned.svg
 Method:
   - Maximum Likelihood Estimation
 Note: Access by application
