@@ -2,14 +2,20 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  ComFLOW is a simulation method for free-surface flow in terrestrial and
+  micro-gravity environments. It models viscous two-phase flow (incompressible
+  liquid, compressible gas) in and around arbitrary geometries. Effects of
+  capillarity and liquid-solid body interaction are included.
 Developer: University of Groningen
 Discipline:
   - Hydrodynamics
 Life Cycle:
   - Design
+Logo URL: https://www.rug.nl/_definition/shared/images/logo--en.svg
 Method:
   - Computational Fluid Dynamics (CFD)
-Note: In house software
+Note: UoG in house software
 Primary Use:
   - Other
 TRL:
