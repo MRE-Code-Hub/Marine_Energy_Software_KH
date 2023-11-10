@@ -2,14 +2,20 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  A numerical time-domain model for the fully coupled dynamic analysis of
+  offshore floating wind turbine systems including blade-rotor dynamics,
+  mooring dynamics, and platform motions.
 Developer: Moo-Hyun Kim
 Discipline:
   - Hydrodynamics
+  - Mooring
 Life Cycle:
   - Design
+Logo URL: https://brandguide.tamu.edu/assets/img/logos/tam-box-logo.png
 Method:
   - Finite Element Analysis
-Note: Unknown availability
+Note: Texas A&M in-house code
 Primary Use:
   - Offshore Oil and Gas
   - Offshore Wind
@@ -22,3 +28,4 @@ Technology:
   - OTEC
   - Wave
 Title: CHARM3D
+Web Address: https://onepetro.org/ISOPEIOPEC/proceedings-abstract/ISOPE08/All-ISOPE08/11136
