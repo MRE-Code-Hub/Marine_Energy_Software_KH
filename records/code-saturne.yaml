@@ -12,6 +12,7 @@ License Type:
       - GPL
 Life Cycle:
   - Design
+Logo URL: https://upload.wikimedia.org/wikipedia/en/0/0c/EDF_Energy_logo.svg
 Method:
   - Computational Fluid Dynamics (CFD)
 Primary Use:
@@ -21,6 +22,7 @@ Programming Language:
 TRL:
   - 1-3
   - 4-6
+  - 7-9
 Technology:
   - Current
 Title: code_saturne
