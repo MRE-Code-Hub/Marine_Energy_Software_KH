@@ -2,6 +2,12 @@ Collection Method:
   - Field
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  This software implements a shape-matching based classifier algorithm for the
+  underwater automated detection of marine life for that system. In addition to
+  applying shape descriptors, the algorithm also adopts information theoretical
+  learning based affine shape registration, improving point correspondences
+  found by shape descriptors as well as the final similarity measure.
 Developer: Cao, Zheng, Ouyang, Bing, and Principe, Jose
 Discipline:
   - Environmental Impact
