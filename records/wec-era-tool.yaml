@@ -2,6 +2,12 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  An open access tool for assessing the suitability of Wave Energy Converters
+  (WEC) projects, in terms of the potential impacts that they can cause. The
+  tool is based on the Ecosystem Risk Assessment of three different Wave Energy
+  Converters technologies during their life-cycle stages (from installation to
+  operation and decommissioning).
 Developer: AZTI
 Discipline:
   - Environmental Impact
@@ -9,6 +15,7 @@ Interface:
   - Web Page
 Life Cycle:
   - Design
+Logo URL: https://www.azti.es/wp-content/uploads/2020/03/AZTI_horizontal.png
 Method:
   - Ecological Risk Assessment
 Primary Use:

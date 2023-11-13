@@ -3,6 +3,9 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  The Tidal API provides access to tidal predictions for the coastline of the
+  British Isles and Ireland.
 Developer: UK Hydrographic Office
 Discipline:
   - Extreme Events
@@ -10,10 +13,11 @@ Discipline:
 Interface:
   - web-API
 License Type:
-  - Freemium
+  - Commercial
 Life Cycle:
   - Design
   - Operations and Maintenance
+Logo URL: https://easytide.admiralty.co.uk/images/Admiralty-stacked-logo.svg
 Primary Use:
   - Other
 TRL:
@@ -23,4 +27,4 @@ TRL:
 Technology:
   - Current
 Title: UK Tidal API
-Web Address: https://www.admiralty.co.uk/digital-services/data-solutions/uk-tidal-api
+Web Address: https://www.admiralty.co.uk/access-data/apis

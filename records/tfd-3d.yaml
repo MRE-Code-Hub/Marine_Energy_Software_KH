@@ -2,6 +2,9 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  TFD-3D implements a finite-difference representation of the conservative
+  form of the Shallow Water Equations in 3 dimensions using sigma coordinates.
 Developer: Scott Couch
 Discipline:
   - Extreme Events
@@ -21,5 +24,5 @@ TRL:
   - 7-9
 Technology:
   - Current
-Title: TFD-2D
-Web Address: https://ieeexplore.ieee.org/document/4302360
+Title: TFD-3D
+Web Address: https://tethys.pnnl.gov/sites/default/files/publications/Impact_Tidal_Energy_Extraction.pdf

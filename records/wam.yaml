@@ -2,10 +2,13 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
-Developer: Wave Model Development and Implementation Group
+Developer: Helmholtz-Zentrum Hereon
 Discipline:
   - Extreme Events
   - Site Characterization
+License Type:
+  - Open-Source:
+    - GPL
 Life Cycle:
   - Design
   - Operations and Maintenance
@@ -20,4 +23,4 @@ TRL:
 Technology:
   - Wave
 Title: WAM
-Web Address: https://www.bodc.ac.uk/data/documents/nodb/254628/
+Web Address: https://github.com/mywave/WAM

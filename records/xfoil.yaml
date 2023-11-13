@@ -2,6 +2,9 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  XFOIL is an interactive program for the design and analysis of subsonic
+  isolated airfoils.
 Developer: MIT
 Discipline:
   - Hydrodynamics
@@ -13,6 +16,7 @@ License Type:
       - GPL
 Life Cycle:
   - Design
+Logo URL: http://web.mit.edu/drela/Public/web/xfoil/xfoil_logo.gif
 Method:
   - Panel Method
 Primary Use:

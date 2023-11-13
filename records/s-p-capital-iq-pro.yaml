@@ -2,6 +2,11 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  S&P Capital IQ Pro provides access to financial data, news, and analytics for
+  real estate investment trusts (REITs) as well as industry data on bank &
+  thrifts, financial services, insurance, real estate in North America and
+  other markets.
 Developer: S&P Global
 Discipline:
   - Cost Assessment
@@ -9,6 +14,8 @@ Discipline:
   - Supply Chain
 Interface:
   - Graphical
+License Type:
+  - Commercial
 Life Cycle:
   - Condition Monitoring
   - Decommissioning
@@ -16,6 +23,7 @@ Life Cycle:
   - Design
   - Manufacturing
   - Operations and Maintenance
+Logo URL: https://www.spglobal.com/_media/images/logo-spglobal.svg
 Primary Use:
   - Other
 TRL:

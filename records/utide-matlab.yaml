@@ -2,6 +2,9 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  Unified tidal analysis and prediction functions. Sea level & vector current;
+  irregular times; confidence intervals; constituent selection diagnostics.
 Developer: Daniel Codiga
 Discipline:
   - Data QA and QC
@@ -12,6 +15,7 @@ License Type:
 Life Cycle:
   - Design
   - Operations and Maintenance
+Logo URL: https://uk.mathworks.com/responsive_image/160/120/0/0/0/cache/matlabcentral/mlc-downloads/downloads/submissions/46523/versions/4/screenshot.jpg
 Method:
   - Tidal Harmonics
 Primary Use:

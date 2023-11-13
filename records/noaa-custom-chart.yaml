@@ -2,6 +2,10 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  NOAA Custom Chart (NCC) is an online application that enables users to create
+  their own customized nautical charts directly from the latest official NOAA
+  electronic navigational chart data.
 Developer: The National Oceanic and Atmospheric Administration
 Discipline:
   - Site Characterization
@@ -10,6 +14,7 @@ Interface:
 Life Cycle:
   - Deployment
   - Design
+Logo URL: https://www.nauticalcharts.noaa.gov/images/noaa-logo-rgb-2022.png
 Primary Use:
   - Ocean and Coastal Engineering
 TRL:

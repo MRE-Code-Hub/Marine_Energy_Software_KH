@@ -2,6 +2,9 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
+Description: |-
+  RenewNet Foundry is a repository for an integrated set of simulation
+  components for system simulation of wind, wave and tidal energy systems.
 Developer: Richard Crozier
 Discipline:
   - Multibody Dynamics
@@ -12,6 +15,7 @@ License Type:
       - GPL
 Life Cycle:
   - Design
+Logo URL: https://a.fsdn.com/allura/p/rnfoundry/icon
 Primary Use:
   - Marine Renewable Energy
 Programming Language:
