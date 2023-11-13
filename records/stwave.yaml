@@ -2,6 +2,10 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
+Description: |-
+  STWAVE allows coastal project engineers to numerically model wave generation
+  and transformation over complex bathymetry, interaction of waves with
+  currents and structures, and propagation of waves in entrances and harbors.
 Developer: US Army Corps of Engineers
 Discipline:
   - Extreme Events
@@ -9,6 +13,7 @@ Discipline:
 Life Cycle:
   - Design
   - Operations and Maintenance
+Logo URL: https://cirp.usace.army.mil/_images/USACE_logo.png
 Method:
   - Wave Spectral Analysis
 Primary Use:
