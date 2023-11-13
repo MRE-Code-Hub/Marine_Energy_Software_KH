@@ -2,6 +2,8 @@ Collection Method:
   - Laboratory
 Country of Origin:
   - International
+Description: |-
+  Software for Particle Image Velocimetry (PIV).
 Developer: PIVTEC GmbH
 Discipline:
   - Hydrodynamics
@@ -11,6 +13,7 @@ License Type:
   - Freemium
 Life Cycle:
   - Design
+Logo URL: https://www.pivtec.com/images/PIVview2Cicon.png
 Method:
   - Particle Image Velocimetry (PIV)
 Primary Use:
