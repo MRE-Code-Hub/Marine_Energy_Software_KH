@@ -1,5 +1,15 @@
+---
+name: Pull request template
+about: Allows users to add new software to the database
+title: "[PULL REQUEST]"
+labels: ''
+assignees: ''
+
+---
+
 **Note: italicized text below is include as an example and should be removed prior to submission**
 
+# Add New Software
 Collection Method: _Point of use of the software package, i.e. the physical source of data transformed by the software._
 
 Country of Origin: _Domestic or International_
