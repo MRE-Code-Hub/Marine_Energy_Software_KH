@@ -1,0 +1,36 @@
+Collection Method:
+  - Modeling
+Country of Origin:
+  - International
+Dependencies: NEMOH
+Description: |-
+  MoodyMarine is a time-domain solver for marine installations. It enables
+  time-domain modelling of mooring lines and floating bodies in waves.
+Developer: Sigma Energy & Marine
+Discipline:
+  - Hydrodynamics
+Interface:
+  - Graphical
+License Type:
+  - Freeware
+Life Cycle:
+  - Design
+Logo URL: https://www.moodymarine.se/resources/MOODY_SMALL.png
+Method:
+  - Potential Flow
+  - Cummins Equation
+  - Morrison's Equation
+  - Finite Element Analysis
+Primary Use:
+  - Marine Renewable Energy
+  - Naval Architecture
+Programming Language:
+  - C++
+  - JavaScript
+Technology:
+  - Wave
+Title: MoodyMarine
+TRL:
+  - "1-3"
+  - "4-6"
+Web Address: https://www.moodymarine.se/
