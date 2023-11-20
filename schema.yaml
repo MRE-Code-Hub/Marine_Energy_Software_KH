@@ -107,6 +107,7 @@ $defs:
     - Cartesian Cut-Cell
     - Computational Fluid Dynamics (CFD)
     - Conservation Planning
+    - Cummins Equation
     - Data Acquisition
     - Discrete Vortex Method
     - Distribution Management System (DMS)
@@ -134,6 +135,7 @@ $defs:
     - Mechanics
     - Modal Analysis
     - Moment Matching
+    - Morrison's Equation
     - Motion Detection
     - Multipole Expansion
     - Natural Language Processing (NLP)
@@ -402,11 +404,11 @@ properties:
     description: The URL of the software package.
     title: Web Address
 required:
-- Title
-- Primary Use
-- Technology
-- TRL
 - Collection Method
 - Life Cycle
+- Primary Use
+- Technology
+- Title
+- TRL
 title: MRE Software Database Schema
 type: object
