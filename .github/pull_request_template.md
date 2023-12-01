@@ -6,6 +6,8 @@ title: "[PULL REQUEST]"
 ---
 **Note: italicized text below is include as an example and should be removed prior to submission**
 
+``` python
+
 Collection Method: 
   - _Point of use of the software package, i.e. the physical source of data transformed by the software._
   - Modeling
@@ -17,7 +19,7 @@ Country of Origin:
   - Domestic (USA)
   - International
 
-Description: 
+Description: |-
   - _(only for software not on GitHub) Brief description of the software_
 
 Developer: _The name of the software developer, e.g. company, research body, individual._
@@ -32,8 +34,10 @@ Interface:
   - web-API
   - Web Page
 
-Funding: _Is the software funded by DOE WPTO?_
-
+Funding: 
+  - _Is the software funded by DOE WPTO?_
+  - WPTO
+  
 License Type: 
   - _The types, if any, of license governing use and development of the software._
   - Open-Source
@@ -47,7 +51,7 @@ License Type:
 
 Logo URL: _(only for commercial software) Does the software have a logo?_
 
-Lifecycle: 
+Life Cycle: 
   - _Applicable marine renewable energy technology life cycle phases for the software package._
   - Design
   - Manufacturing
@@ -97,3 +101,5 @@ Technology:
 Title: _The name of the software package._
 
 Web Address: _The URL of the software package._
+
+``` 
