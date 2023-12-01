@@ -5,10 +5,11 @@ Country of Origin:
 Developer: Testing
 Discipline:
   - Materials
-Funding: WPTO
+Funding: 
+  - WPTO
 License Type: 
   - Open-Source
-Lifecycle: 
+Life Cycle: 
   - Decommissioning
 Method: 
   - Image Processing
