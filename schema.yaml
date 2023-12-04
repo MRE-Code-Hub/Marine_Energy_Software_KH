@@ -196,6 +196,14 @@ $defs:
     - Other
     title: OpenSourceOptions
     type: string
+  Prices:
+    enum:
+    - Free
+    - $
+    - $$
+    - $$$
+    - $$$$
+    type: string
   PrimaryUses:
     enum:
     - Marine Renewable Energy
@@ -247,6 +255,12 @@ properties:
     title: Collection Method
     type: array
     uniqueItems: true
+  Cost:
+    default: null
+    description: Estimated cost of the software.
+    oneOf:
+    - $ref: '#/$defs/Prices'
+    - type: 'null'
   Country of Origin:
     anyOf:
     - items:
