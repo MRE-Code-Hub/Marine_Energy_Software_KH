@@ -255,6 +255,12 @@ properties:
     title: Collection Method
     type: array
     uniqueItems: true
+  Cost:
+    default: null
+    description: Estimated cost of the software.
+    oneOf:
+    - $ref: '#/$defs/Prices'
+    - type: 'null'
   Country of Origin:
     anyOf:
     - items:
@@ -367,12 +373,6 @@ properties:
     - type: string
     - type: 'null'
     default: null
-  Price:
-    default: null
-    description: Estimated price of the software.
-    oneOf:
-    - $ref: '#/$defs/Prices'
-    - type: 'null'
   Primary Use:
     description: The primary technologies applicable to the software package.
     items:
