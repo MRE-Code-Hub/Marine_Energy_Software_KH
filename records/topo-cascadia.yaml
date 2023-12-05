@@ -1,8 +1,11 @@
 Collection Method:
   - Modeling
+Cost: Free
 Country of Origin:
   - Domestic (USA)
-Dependencies: Simcenter STAR-CCM+, ROMS/TOMS
+Dependencies:
+  - Simcenter STAR-CCM+
+  - ROMS/TOMS
 Developer: Danny Sale
 Discipline:
   - Array Effects
