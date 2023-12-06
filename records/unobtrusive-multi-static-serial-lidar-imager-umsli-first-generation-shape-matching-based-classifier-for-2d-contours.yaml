@@ -1,5 +1,6 @@
 Collection Method:
   - Field
+Cost: Free
 Country of Origin:
   - Domestic (USA)
 Description: |-
@@ -13,7 +14,7 @@ Discipline:
   - Environmental Impact
 License Type:
   - Open-Source:
-    - GPL
+      - GPL
 Life Cycle:
   - Condition Monitoring
   - Decommissioning

@@ -1,5 +1,6 @@
 Collection Method:
   - Laboratory
+Cost: Free
 Country of Origin:
   - Domestic (USA)
 Developer: UNH-OE
@@ -13,21 +14,6 @@ License Type:
       - MIT
 Life Cycle:
   - Design
-Note: "OPIE was developed some time ago, and motion tracking software has become very\
-  \ commonplace since. Kinovea is one example. \nThe UNH OPIE system \u201Clives\u201D\
-  \ on a dedicated cart with a desktop computer and also on a laptop in a Pelican\
-  \ case, with dedicated cameras, but hasn\u2019t been used in these configurations\
-  \ in a couple of years \u2013 this means these particular systems would need to\
-  \ be evaluated for functionality. I\u2019m copying John Ahern, our OE Lab engineer\
-  \ who will be involved in the testing.\n\nThe most important part in optical tracking\
-  \ is to obtain good video and follow best practices in establishing high-contrast\
-  \ points on a model that can be. Any camera can be used. The UNH wave/tow tank has\
-  \ windows on the side and on the bottom, and video/tracking can also be done from\
-  \ above. Most of the time motion tracking in waves has been done with a camera pointed\
-  \ through the side window.\n\nUNH is committed to providing an appropriate camera\
-  \ and lighting (if necessary) to obtain good video for motion tracking analysis.\
-  \  Motion tracking can then be done with the Matlab-based OPIE (code in github repository\
-  \ above) or other motion tracking software. \n"
 Primary Use:
   - Other
 Programming Language:
