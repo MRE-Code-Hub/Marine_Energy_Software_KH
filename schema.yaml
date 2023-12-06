@@ -417,6 +417,46 @@ properties:
     default: null
     description: The URL of the software package.
     title: Web Address
+allOf:
+  - if:
+      properties:
+        License Type:
+          required:
+            - Open-Source
+      required:
+        - License Type
+    then:
+      properties:
+        Cost:
+          const: Free
+      required:
+        - Cost
+  - if:
+      properties:
+        License Type:
+          contains:
+            const: Open-Source
+      required:
+        - License Type
+    then:
+      properties:
+        Cost:
+          const: Free
+      required:
+        - Cost
+  - if:
+      properties:
+        License Type:
+          contains:
+            const: Freeware
+      required:
+        - License Type
+    then:
+      properties:
+        Cost:
+          const: Free
+      required:
+        - Cost
 required:
 - Collection Method
 - Life Cycle
