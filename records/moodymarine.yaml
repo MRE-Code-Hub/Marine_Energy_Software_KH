@@ -1,5 +1,6 @@
 Collection Method:
   - Modeling
+Cost: Free
 Country of Origin:
   - International
 Dependencies: NEMOH
@@ -27,10 +28,10 @@ Primary Use:
 Programming Language:
   - C++
   - JavaScript
+TRL:
+  - 1-3
+  - 4-6
 Technology:
   - Wave
 Title: MoodyMarine
-TRL:
-  - "1-3"
-  - "4-6"
 Web Address: https://www.moodymarine.se/
