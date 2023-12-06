@@ -421,8 +421,10 @@ allOf:
   - if:
       properties:
         License Type:
-          required:
-            - Open-Source
+          contains:
+            type: object
+            required:
+              - Open-Source
       required:
         - License Type
     then:
