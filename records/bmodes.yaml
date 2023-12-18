@@ -3,7 +3,7 @@ Collection Method:
 Cost: Free
 Country of Origin:
   - Domestic (USA)
-Description: |-
+Description: >-
   BModes is a finite-element code that provides dynamically coupled modes for a
   beam. The beam can be a rotor blade, rotating or non-rotating, or a tower.
   Both the blade and the tower can have a tip attachment. Examples of tip

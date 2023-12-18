@@ -2,7 +2,7 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
-Description: |-
+Description: >-
   A software environment for the modelling of multi-physics phenomena. The
   numerical approach is based on finite volume methods but extended to
   unstructured meshes (ie. FV-UM). A range of interacting solution procedures

@@ -19,7 +19,7 @@ Country of Origin:
   - Domestic (USA)
   - International
 
-Description: |-
+Description: >-
   - _(only for software not on GitHub) Brief description of the software_
 
 Developer: _The name of the software developer, e.g. company, research body, individual._

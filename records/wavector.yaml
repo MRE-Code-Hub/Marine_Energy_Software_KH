@@ -2,7 +2,7 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
-Description: |-
+Description: >-
   Basic ocean wavefield analysis package. Import wind and wave data from
   sensors, numerical models and internet archives. Visualize and export sea and
   swell time series, spectra and metocean parameters.

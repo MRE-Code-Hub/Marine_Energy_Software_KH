@@ -2,19 +2,22 @@ Collection Method:
   - Modeling
 Country of Origin:
   - Domestic (USA)
-Description: |-
+Description: >-
   Ansys Aqwa software addresses the vast majority of analysis requirements
   associated with hydrodynamic assessment of all types of offshore and marine
   structures. These include SPARs, FPSOs, Semi-submersibles, Tension leg
   platforms, Ships, Renewable energy devices, and Breakwaters.
 
+
   Aqwa has been used extensively in the oil & gas, renewable and general
   engineering sectors to model installation and use of equipment in open water
   as well as in harbors or sheltered locations.
 
+
   Ansys Aqwa comprises two packages:
 
-  Ansys Aqwa Diffraction is a boundary element method (BEM) solver that provides
+
+  +   Ansys Aqwa Diffraction is a boundary element method (BEM) solver that provides
   an integrated facility for developing primary hydrodynamic parameters required
   to undertake complex motions and response analysis. Model creation can be
   performed through Ansys DesignModeler software or via other Ansys structural
@@ -23,7 +26,7 @@ Description: |-
   mechanics products, Ansys ASAS or generically defined FE models for subsequent
   structural analysis.
 
-  Ansys Aqwa Suite extends Ansys Aqwa Diffraction to include analysis
+  +   Ansys Aqwa Suite extends Ansys Aqwa Diffraction to include analysis
   capabilities for global performance of moored and/or connected systems subject
   to random sea states. Simulations may be static or dynamic in frequency and/or
   time domain. More advanced requirements, such as dynamic position systems and

@@ -2,7 +2,7 @@ Collection Method:
   - Modeling
 Country of Origin:
   - International
-Description: |-
+Description: >-
   TFD-3D implements a finite-difference representation of the conservative
   form of the Shallow Water Equations in 3 dimensions using sigma coordinates.
 Developer: Scott Couch

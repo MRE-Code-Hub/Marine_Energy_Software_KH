@@ -4,7 +4,7 @@ Cost: Free
 Country of Origin:
   - International
 Dependencies: Fluidsim
-Description: |-
+Description: >-
   Fluidsim_ocean provides solvers useful for studying the oceanic dynamics
   implemented using the CFD framework fluidsim.
 Developer: Pierre Augier
