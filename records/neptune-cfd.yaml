@@ -3,9 +3,9 @@ Collection Method:
 Country of Origin:
   - International
 Description: >-
-  NEPTUNE_CFD is based on a multi-fluid (Eulerian) approach. It can simulate a
-  wide variety of multiphase flows: free-surface flows (adiabatic or not);
-  dispersed flows (boiling flows, bubbly flows, particle-laden flows,
+  NEPTUNE_CFD is based on a multi-fluid (Eulerian) approach. It can simulate
+  a wide variety of multiphase flows: free-surface flows (adiabatic or
+  not); dispersed flows (boiling flows, bubbly flows, particle-laden flows,
   droplet-laden flows) with closures to model the inter-phase transfers
   (momentum, mass, energy). Dedicated models are also available to simulate
   regime transitions of two-phase flows (from dispersed to stratified two-phase

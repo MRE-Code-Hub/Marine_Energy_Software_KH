@@ -4,11 +4,11 @@ Cost: Free
 Country of Origin:
   - Domestic (USA)
 Description: >-
-  The Princeton Ocean Model (POM) is an ocean modeling code used to simulate a
-  wide-range of problems, from small-scale coastal processes to global ocean
-  climate change. POM is a sigma coordinate (terrain-following), free surface
-  ocean model with embedded turbulence and wave sub-models, and wet-dry
-  capability.
+  The Princeton Ocean Model (POM) is an ocean modeling code used to simulate
+  a wide-range of problems, from small-scale coastal processes to global
+  ocean climate change. POM is a sigma coordinate (terrain-following),
+  free surface ocean model with embedded turbulence and wave sub-models,
+  and wet-dry capability.
 Developer: Old Dominion University
 Discipline:
   - Site Characterization

@@ -5,10 +5,11 @@ Country of Origin:
   - Domestic (USA)
 Description: >-
   The Resource Planning Portal database gives users instant access to long-term
-  planning information for dozens of load-serving entities (LSEs) across the
-  Western Electricity Coordinating Council's territory. Users have the ability
-  to conduct queries of information contained in the database, compare planning
-  assumptions across LSEs, and download results in an easily-accessible format.
+  planning information for dozens of load-serving entities (LSEs) across
+  the Western Electricity Coordinating Council's territory. Users have
+  the ability to conduct queries of information contained in the database,
+  compare planning assumptions across LSEs, and download results in an
+  easily-accessible format.
 Developer: Lawrence Berkeley National Laboratory
 Interface:
   - Web Page

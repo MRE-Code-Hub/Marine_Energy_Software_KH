@@ -6,8 +6,8 @@ Country of Origin:
   - International
 Description: >-
   MetOcean Solutions' forecast API offers point time-series data for any
-  location on earth. The API delivers atmospheric, hydrodynamic, and wave data
-  from local high resolution and global forecast models.
+  location on earth. The API delivers atmospheric, hydrodynamic, and wave
+  data from local high resolution and global forecast models.
 Developer: MetOcean Solutions
 Discipline:
   - Site Characterization
@@ -28,5 +28,5 @@ TRL:
 Technology:
   - Current
   - Wave
-Title: "MetOcean\u2019s API"
+Title: MetOcean’s API
 Web Address: https://www.metocean.co.nz/metocean-api

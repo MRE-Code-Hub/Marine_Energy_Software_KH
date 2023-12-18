@@ -4,10 +4,11 @@ Cost: $$$
 Country of Origin:
   - Domestic (USA)
 Description: >-
-  SMS (Surface-water Modeling System) is a complete program for building and
-  simulating surface water models. It features 1D and 2D modeling. Currently
-  supported models include ADCIRC, CMS-FLOW2D, FESWMS, TABS, TUFLOW, BOUSS-2D,
-  CGWAVE, STWAVE, CMS-WAVE (WABED), GENESIS, PTM, and WAM.
+  SMS (Surface-water Modeling System) is a complete program for building
+  and simulating surface water models. It features 1D and 2D modeling.
+  Currently supported models include ADCIRC, CMS-FLOW2D, FESWMS, TABS,
+  TUFLOW, BOUSS-2D, CGWAVE, STWAVE, CMS-WAVE (WABED), GENESIS, PTM, and
+  WAM.
 Developer: Aquaveo
 Discipline:
   - Data Conversion

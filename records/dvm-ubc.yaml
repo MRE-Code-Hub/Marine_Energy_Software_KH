@@ -3,10 +3,10 @@ Collection Method:
 Country of Origin:
   - International
 Description: >-
-  A new formulation of the discrete vortex method (DVM-UBC) is proposed to
-  describe the behavior of turbines and unsteady flow mathematically, and a
-  numerical model is developed to predict the performance, the unsteady wake
-  and acoustic emission of a stand-alone turbine using DVM-UBC.
+  A new formulation of the discrete vortex method (DVM-UBC) is proposed
+  to describe the behavior of turbines and unsteady flow mathematically,
+  and a numerical model is developed to predict the performance, the unsteady
+  wake and acoustic emission of a stand-alone turbine using DVM-UBC.
 Developer: Ye Li
 Discipline:
   - Array Effects

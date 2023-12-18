@@ -3,9 +3,9 @@ Collection Method:
 Country of Origin:
   - International
 Description: >-
-  A software environment for the modelling of multi-physics phenomena. The
-  numerical approach is based on finite volume methods but extended to
-  unstructured meshes (ie. FV-UM). A range of interacting solution procedures
+  A software environment for the modelling of multi-physics phenomena.
+  The numerical approach is based on finite volume methods but extended
+  to unstructured meshes (ie. FV-UM). A range of interacting solution procedures
   for turbulent fluid flow, heat transfer with solidification/melting and
   elasto-visco-plastic solid mechanics are implemented.
 Developer: University of Greenwich
@@ -16,8 +16,10 @@ Life Cycle:
 Logo URL: https://gala.gre.ac.uk/images/logo_blue_550.png
 Method:
   - Computational Fluid Dynamics (CFD)
-Note: |-
-  In-house UoG. See https://www.icrepq.com/icrepq'10/724-Williams.pdf for usage
+Note: >-
+  In-house UoG. See https://www.icrepq.com/icrepq'10/724-Williams.pdf for
+  usage
+
   example.
 Primary Use:
   - Other

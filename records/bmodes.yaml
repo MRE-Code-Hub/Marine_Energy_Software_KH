@@ -4,18 +4,18 @@ Cost: Free
 Country of Origin:
   - Domestic (USA)
 Description: >-
-  BModes is a finite-element code that provides dynamically coupled modes for a
-  beam. The beam can be a rotor blade, rotating or non-rotating, or a tower.
-  Both the blade and the tower can have a tip attachment. Examples of tip
-  attachments are aerodynamic brakes for blades and rotor-nacelle assemblies
-  for towers. In addition to the tip inertia, the tower can also have
-  tension-wire supports.
+  BModes is a finite-element code that provides dynamically coupled modes
+  for a beam. The beam can be a rotor blade, rotating or non-rotating,
+  or a tower. Both the blade and the tower can have a tip attachment. Examples
+  of tip attachments are aerodynamic brakes for blades and rotor-nacelle
+  assemblies for towers. In addition to the tip inertia, the tower can
+  also have tension-wire supports.
 
-  Wind turbine designers may use coupled modes for several applications such as
-  modal-based modeling of blades and tower for validation of flexible-component
-  models using experimental data, modal-based fatigue analysis, and
-  interpretation of aeroelastic-stability behavior of turbines. BModes can be
-  used to generate the blade and tower mode shapes used by the ElastoDyn module
+  Wind turbine designers may use coupled modes for several applications
+  such as modal-based modeling of blades and tower for validation of flexible-component
+  models using experimental data, modal-based fatigue analysis, and interpretation
+  of aeroelastic-stability behavior of turbines. BModes can be used to
+  generate the blade and tower mode shapes used by the ElastoDyn module
   of FAST/OpenFAST.
 Developer: NREL
 Discipline:

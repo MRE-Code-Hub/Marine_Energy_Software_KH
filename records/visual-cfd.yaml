@@ -5,8 +5,9 @@ Country of Origin:
 Dependencies: OpenFOAM
 Description: >-
   Visual-CFD is a complete Computational Fluid Dynamic (CFD) user interface
-  created for OpenFOAM. With Visual-CFD, you can prepare CAD geometry, set up,
-  solve and post-process an OpenFOAM case in a fully customizable environment.
+  created for OpenFOAM. With Visual-CFD, you can prepare CAD geometry,
+  set up, solve and post-process an OpenFOAM case in a fully customizable
+  environment.
 Developer: Pacific Engineering Systems International
 Discipline:
   - Meshing

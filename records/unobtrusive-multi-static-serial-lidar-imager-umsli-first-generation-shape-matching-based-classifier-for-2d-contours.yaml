@@ -4,11 +4,12 @@ Cost: Free
 Country of Origin:
   - Domestic (USA)
 Description: >-
-  This software implements a shape-matching based classifier algorithm for the
-  underwater automated detection of marine life for that system. In addition to
-  applying shape descriptors, the algorithm also adopts information theoretical
-  learning based affine shape registration, improving point correspondences
-  found by shape descriptors as well as the final similarity measure.
+  This software implements a shape-matching based classifier algorithm
+  for the underwater automated detection of marine life for that system.
+  In addition to applying shape descriptors, the algorithm also adopts
+  information theoretical learning based affine shape registration, improving
+  point correspondences found by shape descriptors as well as the final
+  similarity measure.
 Developer: Cao, Zheng, Ouyang, Bing, and Principe, Jose
 Discipline:
   - Environmental Impact
@@ -34,6 +35,7 @@ Technology:
   - OTEC
   - Salinity Gradient
   - Wave
-Title: Unobtrusive Multi-Static Serial LiDAR Imager (UMSLI) First Generation Shape-Matching
-  Based Classifier for 2D Contours
+Title: >-
+  Unobtrusive Multi-Static Serial LiDAR Imager (UMSLI) First Generation
+  Shape-Matching Based Classifier for 2D Contours
 Web Address: https://www.osti.gov/biblio/1373095

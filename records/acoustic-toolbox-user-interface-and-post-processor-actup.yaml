@@ -1,13 +1,15 @@
 Collection Method:
   - Modeling
+Cost: Free
 Country of Origin:
   - International
 Description: >-
   The Acoustic Toolbox User interface and Post processor provides a consistent
   menu-driven user interface to a variety of underwater acoustic propagation
-  codes, including the 2005 release of the Acoustic Toolbox written by Mike
-  Porter at HLS Research and several versions of the Range dependent Acoustic
-  Model (RAM), written by Mike Collins from the US Naval Research Laboratory.
+  codes, including the 2005 release of the Acoustic Toolbox written by
+  Mike Porter at HLS Research and several versions of the Range dependent
+  Acoustic Model (RAM), written by Mike Collins from the US Naval Research
+  Laboratory.
 Developer: Centre for Marine Science and Technology
 Discipline:
   - Acoustics
@@ -18,7 +20,6 @@ Life Cycle:
 Logo URL: https://global.curtin.edu.au/responsive-assets/img/logo-curtin-university.png
 Method:
   - Acoustic Wave Equation
-Cost: Free
 Primary Use:
   - Other
 Programming Language:

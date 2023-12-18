@@ -4,18 +4,19 @@ Country of Origin:
   - Domestic (USA)
 Description: >-
   WAMIT is a computer program based on the linear and second-order potential
-  theory for analyzing floating or submerged bodies, in the presence of ocean
-  waves. The boundary integral equation method (BIEM), also known as the
-  boundary element method (BEM) or panel method , is used to solve for the
-  velocity potential and fluid pressure on the submerged surfaces of the bodies.
-  Separate solutions are carried out simultaneously for the diffraction problem,
-  giving the effects of incident waves on the body, and the radiation problems
-  for each of the prescribed modes of motion of the bodies. These solutions are
-  then used to obtain the relevant hydrodynamic parameters including added-mass
-  and damping coefficients, exciting forces, response-amplitude operators
-  (RAO's), the pressure and fluid velocity, and the mean drift forces and
-  moments. The second-order module, Version 6S, provides complete second-order
-  nonlinear quantities in addition.
+  theory for analyzing floating or submerged bodies, in the presence of
+  ocean waves. The boundary integral equation method (BIEM), also known
+  as the boundary element method (BEM) or panel method , is used to solve
+  for the velocity potential and fluid pressure on the submerged surfaces
+  of the bodies. Separate solutions are carried out simultaneously for
+  the diffraction problem, giving the effects of incident waves on the
+  body, and the radiation problems for each of the prescribed modes of
+  motion of the bodies. These solutions are then used to obtain the relevant
+  hydrodynamic parameters including added-mass and damping coefficients,
+  exciting forces, response-amplitude operators (RAO's), the pressure and
+  fluid velocity, and the mean drift forces and moments. The second-order
+  module, Version 6S, provides complete second-order nonlinear quantities
+  in addition.
 Developer: MIT
 Discipline:
   - Hydrodynamics
