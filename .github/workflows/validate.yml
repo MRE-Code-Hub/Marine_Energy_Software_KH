@@ -1,5 +1,9 @@
 name: validate-records
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+    branches:
+      - main
 jobs:
   schema:
     runs-on: ubuntu-latest
