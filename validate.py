@@ -61,6 +61,7 @@ def validate_records():
             print(f"Record '{str(p.name)}' failed to load with the following "
                    "error:")
             print(str(e))
+            error_count += 1
             continue
         
         errors = list(validator.iter_errors(instance))
