@@ -1,9 +1,13 @@
 
-from typing import Optional, Union
+import json
+import random
+import argparse
+from typing import Any, Optional, Union
 from pathlib import Path
 from urllib.parse import urlparse
 
 import yaml
+import jsonref
 from yaml import load, dump
 
 try:
@@ -12,6 +16,26 @@ except ImportError:
     from yaml import Loader
 
 StrOrPath = Union[str, Path]
+
+LONG_PROPS = ["Description"]
+SHORT_TEXT = "Hello world!"
+LONG_TEXT = (
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+    "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim "
+    "veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea "
+    "commodo consequat. Duis aute irure dolor in reprehenderit in voluptate "
+    "velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint "
+    "occaecat cupidatat non proident, sunt in culpa qui officia deserunt "
+    "mollit anim id est laborum."
+    "\n\n"
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+    "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim "
+    "veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea "
+    "commodo consequat. Duis aute irure dolor in reprehenderit in voluptate "
+    "velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint "
+    "occaecat cupidatat non proident, sunt in culpa qui officia deserunt "
+    "mollit anim id est laborum."
+)
 
 
 def str_presenter(dumper, data):
@@ -32,10 +56,43 @@ class IndentDumper(yaml.Dumper):
         return super(IndentDumper, self).increase_indent(flow, False)
 
 
-def main(path: Optional[StrOrPath]):
+def main():
+    
+    parser = argparse.ArgumentParser(
+        description="Create templates and format records")
+    subparsers = parser.add_subparsers(help='sub-command help',
+                                       required=True)
+    
+    setup_format(subparsers)
+    setup_template(subparsers)
+    
+    args = parser.parse_args()
+    args.func(args)
+
+
+def setup_format(subparsers):
+    parser = subparsers.add_parser(
+        'format',
+        help='format records')
+    parser.add_argument('file', nargs='?')
+    parser.set_defaults(func=lambda args: formatter(args.file))
+
+
+def setup_template(subparsers):
+    parser = subparsers.add_parser(
+        'template',
+        help='create template record')
+    parser.add_argument('--dir', default=".")
+    parser.add_argument('--name', default="template.yaml")
+    parser.set_defaults(func=lambda args: make_template(args.dir, args.name))
+
+
+def formatter(path: Optional[StrOrPath]):
     
     if path is not None:
-        format_file(path)
+        with open(path, 'r') as f:
+            data = load(f, Loader=Loader)
+        dump_formatted(data, p)
         return
     
     db_repo_path = Path(".")
@@ -46,13 +103,30 @@ def main(path: Optional[StrOrPath]):
     assert records_path.is_dir()
     
     for p in records_path.iterdir():
-        format_file(p)
+        with open(p, 'r') as f:
+            data = load(f, Loader=Loader)
+        dump_formatted(data, p)
 
 
-def format_file(path: StrOrPath):
+def make_template(template_dir: StrOrPath = ".",
+                  template_name: str = "template.yaml"):
     
-    with open(path, 'r') as f:
-        data = load(f, Loader=Loader)
+    db_repo_path = Path(".")
+    schema_path = db_repo_path / "schema.yaml"
+    assert schema_path.is_file()
+    
+    with open(schema_path, 'r') as f:
+        schema = load(f, Loader=Loader)
+    
+    json_schema = json.dumps(schema)
+    template = get_template(json_schema)
+    
+    template_path = Path(template_dir) / template_name
+    dump_formatted(template, template_path)
+
+
+def dump_formatted(data: dict[str, Any],
+                   path: StrOrPath):
     
     with open(path, 'w') as f:
         dump(data,
@@ -63,8 +137,83 @@ def format_file(path: StrOrPath):
              width=69)
 
 
+def get_template(json_schema: str) -> dict[str, Any]:
+    
+    schema_deref = jsonref.loads(json_schema)
+    template = {}
+    
+    for k, v in schema_deref['properties'].items():
+        process_schema_prop(template, k, v)
+    
+    return template
+
+
+def process_schema_prop(capture, k, v):
+    
+    if 'oneOf' in v:
+        process_schema_multi(capture, k, v, 'oneOf')
+    elif 'anyOf' in v:
+        process_schema_multi(capture, k, v, 'anyOf')
+    elif 'array' in v['type']:
+        if 'enum' in v['items']:
+            capture[k] = v['items']['enum']
+        else:
+            raise RuntimeError(f"Unrecognised items in {(v['items'])} for {k}")
+    elif v['type'] == 'string':
+        process_schema_string(capture, k, v)
+    else:
+        raise RuntimeError(f"Unrecognised type ({(v['type'])}) for {k}")
+
+
+def process_schema_string(capture, k, v):
+    
+    if 'format' in v:
+        if v['format'] == 'uri':
+            capture[k] = 'https://example.com/'
+            return
+    elif 'enum' in v:
+        capture[k] = random.choice(v['enum'])
+        return
+    
+    if k in LONG_PROPS:
+        capture[k] = LONG_TEXT
+    else:
+        capture[k] = SHORT_TEXT
+
+
+def process_schema_multi(capture, k, v, pk):
+    
+    vpk = v[pk]
+    types = {d['type']: i for i, d in enumerate(vpk)}
+    
+    if 'array' in types:
+        sub = vpk[types['array']]
+        if 'anyOf' in sub['items']:
+            capture[k] = []
+            for subsub in sub['items']['anyOf']:
+                if 'enum' in subsub:
+                    capture[k].extend(subsub['enum'])
+                if 'properties' in subsub:
+                    for sk, sv in subsub['properties'].items():
+                        sd = {}
+                        process_schema_prop(sd, sk, sv)
+                        if sk in capture[k]:
+                            capture[k].remove(sk)
+                        capture[k].append(sd)
+        elif 'enum' in sub['items']:
+            capture[k] = sub['items']['enum']
+        elif 'type' in sub['items'] and sub['items']['type'] == 'string':
+            capture[k] = [SHORT_TEXT]
+        else:
+            msg = f"Unrecognised items in {(sub['items'])} for {k}"
+            raise RuntimeError(msg)
+    elif 'string' in types:
+        sub = vpk[types['string']]
+        process_schema_string(capture, k, sub)
+    else:
+        msg = f"Unrecognised types ({types}) for {k}"
+        raise RuntimeError(msg)
+
+
 if __name__ == "__main__":
-    import sys
-    path = None
-    if len(sys.argv) > 1: path = sys.argv[1]
-    main(path)
+    main()

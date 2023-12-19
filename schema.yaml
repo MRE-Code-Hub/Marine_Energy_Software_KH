@@ -2,6 +2,7 @@ $defs:
   saneUrl:
     format: uri
     pattern: "^https?://"
+    type: string
   CollectionMethods:
     enum:
     - Modeling
@@ -171,7 +172,7 @@ $defs:
   OSLicenceModel:
     properties:
       Open-Source:
-        anyOf:
+        oneOf:
         - items:
             $ref: '#/$defs/OpenSourceOptions'
           type: array
@@ -262,7 +263,7 @@ properties:
     - $ref: '#/$defs/Prices'
     - type: 'null'
   Country of Origin:
-    anyOf:
+    oneOf:
     - items:
         $ref: '#/$defs/Countries'
       type: array
@@ -273,7 +274,7 @@ properties:
       if the software is only licensed for use within a designated territory.
     title: Country Of Origin
   Dependencies:
-    anyOf:
+    oneOf:
     - type: string
     - items:
         type: string
@@ -285,14 +286,14 @@ properties:
       for pre- and post-processing.
     title: Dependencies
   Description:
-    anyOf:
+    oneOf:
     - type: string
     - type: 'null'
     default: null
     description: The description of the software package.
     title: Description
   Developer:
-    anyOf:
+    oneOf:
     - type: string
     - type: 'null'
     default: null
@@ -300,7 +301,7 @@ properties:
       individual.
     title: Developer
   Discipline:
-    anyOf:
+    oneOf:
     - items:
         $ref: '#/$defs/Disciplines'
       type: array
@@ -310,7 +311,7 @@ properties:
     description: Applicable disciplines or functionalities of the software package.
     title: Discipline
   Funding:
-    anyOf:
+    oneOf:
     - items:
         $ref: '#/$defs/FundingBodies'
       type: array
@@ -320,7 +321,7 @@ properties:
     description: Sources of funding received for the software package.
     title: Funding
   Interface:
-    anyOf:
+    oneOf:
     - items:
         $ref: '#/$defs/Interfaces'
       type: array
@@ -330,7 +331,7 @@ properties:
     description: The means by which the user interacts with the software.
     title: Interface
   License Type:
-    anyOf:
+    oneOf:
     - items:
         anyOf:
         - $ref: '#/$defs/LicenceTypes'
@@ -351,13 +352,13 @@ properties:
     type: array
     uniqueItems: true
   Logo URL:
-    anyOf:
+    oneOf:
     - $ref: "#/$defs/saneUrl"
     - type: 'null'
     default: null
     description: Link to software or company logo.
   Method:
-    anyOf:
+    oneOf:
     - items:
         $ref: '#/$defs/Methods'
       type: array
@@ -369,7 +370,7 @@ properties:
   Note:
     description: Additional notes relating to the package.
     title: Note
-    anyOf:
+    oneOf:
     - type: string
     - type: 'null'
     default: null
@@ -381,7 +382,7 @@ properties:
     type: array
     uniqueItems: true
   Programming Language:
-    anyOf:
+    oneOf:
     - items:
         $ref: '#/$defs/ProgrammingLanguages'
       type: array
@@ -411,7 +412,7 @@ properties:
     title: Title
     type: string
   Web Address:
-    anyOf:
+    oneOf:
     - $ref: "#/$defs/saneUrl"
     - type: 'null'
     default: null
