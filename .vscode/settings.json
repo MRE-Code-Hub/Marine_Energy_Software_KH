@@ -1,5 +1,8 @@
 {
   "yaml.schemas": {
-    "schema.yaml": "/records/*"
+    "schema.yaml": [
+      "/records/*",
+      "/template.yaml"
+    ]
   }
 }
