@@ -54,8 +54,14 @@ def validate_records():
         
         count += 1
         
-        with open(p, "r") as f:
-            instance = yaml.load(f, Loader)
+        try:
+            with open(p, "r") as f:
+                instance = yaml.load(f, Loader)
+        except Exception as e:
+            print(f"Record '{str(p.name)}' failed to load with the following "
+                   "error:")
+            print(str(e))
+            continue
         
         errors = list(validator.iter_errors(instance))
         if not errors: continue
