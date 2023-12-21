@@ -7,8 +7,11 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import yaml
+import ruamel.yaml
 import jsonref
 from yaml import load, dump
+from ruamel.yaml.comments import CommentedMap
+from ruamel.yaml.scalarstring import FoldedScalarString
 
 try:
     from yaml import CLoader as Loader
@@ -119,10 +122,10 @@ def make_template(template_dir: StrOrPath = ".",
         schema = load(f, Loader=Loader)
     
     json_schema = json.dumps(schema)
-    template = get_template(json_schema)
+    template, descriptions = get_template(json_schema)
     
     template_path = Path(template_dir) / template_name
-    dump_formatted(template, template_path)
+    dump_commented(template_path, schema, template, descriptions)
 
 
 def dump_formatted(data: dict[str, Any],
@@ -137,15 +140,41 @@ def dump_formatted(data: dict[str, Any],
              width=69)
 
 
-def get_template(json_schema: str) -> dict[str, Any]:
+def dump_commented(path: StrOrPath,
+                   schema: dict[str, Any],
+                   data: dict[str, Any],
+                   descriptions: dict[str, str]):
+    
+    cmap = CommentedMap(data)
+    
+    for k, v in descriptions.items():
+        if k in schema['required']:
+            msg = "REQUIRED: "
+        else:
+            msg = "OPTIONAL: "
+        msg += v
+        cmap.yaml_set_comment_before_after_key(k, before=msg)
+    
+    yaml = ruamel.yaml.YAML()
+    yaml.indent(mapping=2, sequence=4, offset=2)
+    
+    with open(path, 'w') as f:
+        yaml.dump(cmap, f)
+
+
+def get_template(json_schema: str) -> tuple[dict[str, Any],
+                                            dict[str, str]]:
     
     schema_deref = jsonref.loads(json_schema)
     template = {}
+    descriptions = {}
     
     for k, v in schema_deref['properties'].items():
         process_schema_prop(template, k, v)
+        if "description" in v:
+            descriptions[k] = v["description"]
     
-    return template
+    return template, descriptions
 
 
 def process_schema_prop(capture, k, v):
