@@ -258,7 +258,7 @@ properties:
     uniqueItems: true
   Cost:
     default: null
-    description: Estimated cost of the software.
+    description: Estimated cost of the software (Free, $, $$, $$$ or $$$$).
     oneOf:
     - $ref: '#/$defs/Prices'
     - type: 'null'
