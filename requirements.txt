@@ -1,3 +1,4 @@
 jsonref
 jsonschema >= 4
 pyyaml
+ruamel.yaml

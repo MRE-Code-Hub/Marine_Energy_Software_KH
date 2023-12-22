@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 jobs:
   format:
     if: ${{ github.repository_owner == 'MRE-Code-Hub' }}
@@ -20,9 +23,9 @@ jobs:
       - name: Format records
         run: python format.py format
       - name: Commit changes
+        if: github.repository_owner == 'MRE-Code-Hub' && github.event_name != 'pull_request'
         uses: stefanzweifel/git-auto-commit-action@v5
   template:
-    if: ${{ github.repository_owner == 'MRE-Code-Hub' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -37,4 +40,5 @@ jobs:
       - name: Gerate template
         run: python format.py template
       - name: Commit changes
+        if: github.repository_owner == 'MRE-Code-Hub' && github.event_name != 'pull_request'
         uses: stefanzweifel/git-auto-commit-action@v5
