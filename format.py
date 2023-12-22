@@ -111,6 +111,18 @@ def formatter(path: Optional[StrOrPath]):
         dump_formatted(data, p)
 
 
+def dump_formatted(data: dict[str, Any],
+                   path: StrOrPath):
+    
+    with open(path, 'w') as f:
+        dump(data,
+             f,
+             Dumper=IndentDumper,
+             allow_unicode=True,
+             default_flow_style=False,
+             width=69)
+
+
 def make_template(template_dir: StrOrPath = ".",
                   template_name: str = "template.yaml"):
     
@@ -126,18 +138,6 @@ def make_template(template_dir: StrOrPath = ".",
     
     template_path = Path(template_dir) / template_name
     dump_commented(template_path, schema, template, descriptions)
-
-
-def dump_formatted(data: dict[str, Any],
-                   path: StrOrPath):
-    
-    with open(path, 'w') as f:
-        dump(data,
-             f,
-             Dumper=IndentDumper,
-             allow_unicode=True,
-             default_flow_style=False,
-             width=69)
 
 
 def dump_commented(path: StrOrPath,
@@ -157,6 +157,7 @@ def dump_commented(path: StrOrPath,
     
     yaml = ruamel.yaml.YAML()
     yaml.indent(mapping=2, sequence=4, offset=2)
+    yaml.width = 69
     
     with open(path, 'w') as f:
         yaml.dump(cmap, f)
@@ -205,7 +206,7 @@ def process_schema_string(capture, k, v):
         return
     
     if k in LONG_PROPS:
-        capture[k] = LONG_TEXT
+        capture[k] = FoldedScalarString(LONG_TEXT)
     else:
         capture[k] = SHORT_TEXT
 
