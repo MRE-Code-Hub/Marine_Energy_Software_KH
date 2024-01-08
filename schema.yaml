@@ -200,10 +200,7 @@ $defs:
   Prices:
     enum:
     - Free
-    - $
-    - $$
-    - $$$
-    - $$$$
+    - Paid
     type: string
   PrimaryUses:
     enum:
@@ -258,7 +255,7 @@ properties:
     uniqueItems: true
   Cost:
     default: null
-    description: Estimated cost of the software (Free, $, $$, $$$ or $$$$).
+    description: Estimated cost of the software (Free or Paid).
     oneOf:
     - $ref: '#/$defs/Prices'
     - type: 'null'
@@ -419,34 +416,6 @@ properties:
     description: The URL of the software package.
     title: Web Address
 allOf:
-  - if:
-      properties:
-        License Type:
-          contains:
-            type: object
-            required:
-              - Open-Source
-      required:
-        - License Type
-    then:
-      properties:
-        Cost:
-          const: Free
-      required:
-        - Cost
-  - if:
-      properties:
-        License Type:
-          contains:
-            const: Open-Source
-      required:
-        - License Type
-    then:
-      properties:
-        Cost:
-          const: Free
-      required:
-        - Cost
   - if:
       properties:
         License Type:
