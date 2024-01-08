@@ -1,6 +1,5 @@
 
 import json
-import random
 import argparse
 from typing import Any, Optional, Union
 from pathlib import Path
@@ -202,7 +201,7 @@ def process_schema_string(capture, k, v):
             capture[k] = 'https://example.com/'
             return
     elif 'enum' in v:
-        capture[k] = random.choice(v['enum'])
+        capture[k] = v['enum'][0]
         return
     
     if k in LONG_PROPS:
