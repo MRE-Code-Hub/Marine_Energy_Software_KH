@@ -33,7 +33,7 @@ Life Cycle:
   - Design
   - Manufacturing
 # OPTIONAL: Link to software or company logo.
-Logo URL: https://www.wikipedia.org/
+Logo URL: 
 # OPTIONAL: Underlying theory or method of the software package.
 Method:
   - Acoustic Wave Equation
@@ -56,4 +56,4 @@ Technology:
 # REQUIRED: The name of the software package.
 Title: Meg's Test
 # OPTIONAL: The URL of the software package.
-Web Address: 
+Web Address: https://www.wikipedia.org/
