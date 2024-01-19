@@ -54,28 +54,35 @@ def validate_records():
         
         count += 1
         
+        if p.suffix != ".yaml":
+            if error_count == 0: print("ERRORS:")
+            print(f"+ Record '{str(p.name)}' must have yaml file extension")
+            error_count += 1
+        
         try:
             with open(p, "r") as f:
                 instance = yaml.load(f, Loader)
         except Exception as e:
-            print(f"Record '{str(p.name)}' failed to load with the following "
-                   "error:")
-            print(str(e))
+            if error_count == 0: print("ERRORS:")
+            print(f"+ Record '{str(p.name)}' failed to load with the "
+                   "following error:")
+            print("  " + str(e))
             error_count += 1
             continue
         
         errors = list(validator.iter_errors(instance))
         if not errors: continue
         
-        print(f"Record '{str(p.name)}' failed validation with the following "
+        if error_count == 0: print("ERRORS:")
+        print(f"+ Record '{str(p.name)}' failed validation with the following "
               "errors:")
         for error in sorted(errors, key=str):
-            print(error.message)
-        print("")
+            print("  " + error.message)
         
         error_count += 1
     
     if error_count:
+        print("")
         raise RuntimeError(f"{error_count} validation error(s) detected")
     
     print(f"Validated {count} records")
