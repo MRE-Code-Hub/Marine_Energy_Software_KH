@@ -24,7 +24,7 @@ jobs:
       - name: Commit changes
         if: github.repository_owner == 'MRE-Code-Hub' && github.event_name != 'pull_request'
         uses: stefanzweifel/git-auto-commit-action@v5
-  template:
+  generated:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -36,8 +36,10 @@ jobs:
           python-version: '3.x'
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
-      - name: Gerate template
+      - name: Generate template
         run: python format.py template
+      - name: Generate glossary
+        run: python format.py glossary
       - name: Commit changes
         if: github.repository_owner == 'MRE-Code-Hub' && github.event_name != 'pull_request'
         uses: stefanzweifel/git-auto-commit-action@v5
