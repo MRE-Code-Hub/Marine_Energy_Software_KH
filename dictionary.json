@@ -1,0 +1,782 @@
+[
+    {
+        "title": "Collection Method",
+        "description": "Point of use of the software package, i.e. the physical source of data transformed by the software.",
+        "terms": [
+            {
+                "name": "Modeling",
+                "description": "The software is applied in a simulation environment."
+            },
+            {
+                "name": "Laboratory",
+                "description": "The software is applied in a laboratory setting."
+            },
+            {
+                "name": "Field",
+                "description": "The software is applied in a real-world scenario."
+            }
+        ]
+    },
+    {
+        "title": "Cost",
+        "description": "Estimated cost of the software (Free or Paid).",
+        "terms": [
+            {
+                "name": "Free",
+                "description": "The software may be used with no monetary cost."
+            },
+            {
+                "name": "Paid",
+                "description": "The software has a monetary cost for its use."
+            }
+        ]
+    },
+    {
+        "title": "Country of Origin",
+        "description": "Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.",
+        "terms": [
+            {
+                "name": "Domestic (USA)",
+                "description": "United States of America origin of software development."
+            },
+            {
+                "name": "International",
+                "description": "Origin of software development outside of the United States of America."
+            }
+        ]
+    },
+    {
+        "title": "Dependencies",
+        "description": "Major dependencies and add-on packages of the software package, e.g. for pre- and post-processing."
+    },
+    {
+        "title": "Description",
+        "description": "The description of the software package."
+    },
+    {
+        "title": "Developer",
+        "description": "The name of the software developer, e.g. company, research body, individual."
+    },
+    {
+        "title": "Discipline",
+        "description": "Applicable disciplines or functionalities of the software package.",
+        "terms": [
+            {
+                "name": "Acoustics",
+                "description": "Analysis or measurement of the noise made by a technology."
+            },
+            {
+                "name": "Array Effects",
+                "description": "Impacts of multiple units of a technology deployed together."
+            },
+            {
+                "name": "Condition Monitoring",
+                "description": "Monitoring the health of a technology while in operation."
+            },
+            {
+                "name": "Control",
+                "description": "Optimal design of the technology's control system, e.g. to maximise electricity generation, minimize stall, etc."
+            },
+            {
+                "name": "Cost Assessment",
+                "description": "Analysis of a technology's cost, economic feasibility, or other cost-related factors (e.g., techno-economic assessments, cost optimization)."
+            },
+            {
+                "name": "Data Conversion",
+                "description": "Transformation of data from one format to another."
+            },
+            {
+                "name": "Data QA and QC",
+                "description": "Data quality assurance and quality control."
+            },
+            {
+                "name": "Deployment",
+                "description": "Installation of the technology."
+            },
+            {
+                "name": "Decommissioning",
+                "description": "Removal of the technology at the end of its lifespan."
+            },
+            {
+                "name": "Electrical Network",
+                "description": "The interconnection of electrical components used to transmit energy to shore."
+            },
+            {
+                "name": "Energy Storage",
+                "description": "Capture of energy produced for later use."
+            },
+            {
+                "name": "Environmental Impact",
+                "description": "Relating to change of the natural environment, adverse or beneficial."
+            },
+            {
+                "name": "Extreme Events",
+                "description": "Related to the prediction of environmental events that are safety critical to a technology, e.g. rouge waves."
+            },
+            {
+                "name": "Grid Integration",
+                "description": "How technologies integrate with the pre-existing electrical grid, including storage."
+            },
+            {
+                "name": "Hybrid Devices",
+                "description": "Devices collecting energy from multiple sources (e.g., wind and wave)."
+            },
+            {
+                "name": "Hydrodynamics",
+                "description": "Understanding the interactions between fluids and structures."
+            },
+            {
+                "name": "Instrumentation",
+                "description": "Instruments for monitoring a technology or its effects."
+            },
+            {
+                "name": "Levelized Cost of Energy",
+                "description": "Analysis of energy cost over the lifetime of a technology."
+            },
+            {
+                "name": "Machine Learning",
+                "description": "Method of data analysis that automates analytical model building."
+            },
+            {
+                "name": "Manufacturing",
+                "description": "Related to the manufacturing process or costs."
+            },
+            {
+                "name": "Maritime Markets",
+                "description": "Markets and potential applications for marine renewable energy other than commercial electricity generation."
+            },
+            {
+                "name": "Materials",
+                "description": "Analysis of the substances from which a technology is made."
+            },
+            {
+                "name": "Meshing",
+                "description": "Discretization of a domain for computational analysis or modeling."
+            },
+            {
+                "name": "Mooring",
+                "description": "Relating to the components that keep a technology on station."
+            },
+            {
+                "name": "Multibody Dynamics",
+                "description": "System that consists of solid bodies, or links, that are connected to each other by joints that restrict their relative motion."
+            },
+            {
+                "name": "Operations and Maintenance",
+                "description": "Relating to the operational phase of a technology, particularly logistics, energy production and lifetime costs due to maintenance."
+            },
+            {
+                "name": "Optimization",
+                "description": "Relating to automatic minimization of some cost function (of an arbitrary number of inputs)."
+            },
+            {
+                "name": "Performance",
+                "description": "Analysis of technology performance in various conditions or operating modes."
+            },
+            {
+                "name": "Power Take Off",
+                "description": "Relating to the system used to convert absorbed energy into a usable form."
+            },
+            {
+                "name": "Pre-Post Processing",
+                "description": "Pre- or Post-processing of data to be used or generated by software."
+            },
+            {
+                "name": "Reliability",
+                "description": "Prediction of the reliability of a technology over its operational lifetime."
+            },
+            {
+                "name": "Safety and Security",
+                "description": "Relating to the safety and protection of personnel and assets."
+            },
+            {
+                "name": "Sediment Transport",
+                "description": "Relating to movement the of solid particles (sediment) in a body of water, typically due to the presence of a technology."
+            },
+            {
+                "name": "Site Characterization",
+                "description": "Surveying a potential site for bathymetry, energy potential, etc."
+            },
+            {
+                "name": "Standards",
+                "description": "International or country standards related to marine renewable energy."
+            },
+            {
+                "name": "Structural",
+                "description": "Relating to the structural design of a technology or component (e.g., blade design, loading)."
+            },
+            {
+                "name": "Substructure",
+                "description": "Relating to the base/foundation for a technology (e.g., pile, floating substructure)."
+            },
+            {
+                "name": "Supply Chain",
+                "description": "Relating to the network of suppliers required to produce a technology."
+            },
+            {
+                "name": "Survivability",
+                "description": "Relating to a technology's performance under extreme operational conditions."
+            },
+            {
+                "name": "Turbulence",
+                "description": "The study of fluid motion characterized by chaotic changes in pressure and flow velocity."
+            },
+            {
+                "name": "Visualization",
+                "description": "Data visualization."
+            }
+        ]
+    },
+    {
+        "title": "Funding",
+        "description": "Sources of funding received for the software package.",
+        "terms": [
+            {
+                "name": "WPTO",
+                "description": "The U.S. Department of Energy's Water Power Technologies Office"
+            }
+        ]
+    },
+    {
+        "title": "Interface",
+        "description": "The means by which the user interacts with the software.",
+        "terms": [
+            {
+                "name": "Graphical",
+                "description": "A native user interface that has interactive graphical elements."
+            },
+            {
+                "name": "Textual",
+                "description": "A native user interface driven by purely text based elements."
+            },
+            {
+                "name": "web-API",
+                "description": "A general interface that can be accessed over the web using the HTTP protocol, typically used by other software."
+            },
+            {
+                "name": "Web Page",
+                "description": "A graphical user interface that is accessed through a web browser."
+            }
+        ]
+    },
+    {
+        "title": "License Type",
+        "description": "The types, if any, of license governing use and development of the software.",
+        "terms": [
+            {
+                "name": "Open-Source",
+                "description": "A type of license that allows the software's source code and/or binaries to be used, modified and/or shared under defined terms and conditions.",
+                "terms": [
+                    {
+                        "name": "GPL",
+                        "description": "The GNU General Public License is a copyleft license, where any derivative work, or interfacing software must be distributed under the same or equivalent license terms."
+                    },
+                    {
+                        "name": "LGPL",
+                        "description": "The GNU Lesser General Public License is similar to the GPL license, except that the copyleft clause does not apply to interfacing software."
+                    },
+                    {
+                        "name": "AGPL",
+                        "description": "The Affero General Public License closes a loophole in the GPL license, where, by using but not distributing the software, the copyleft provisions are not triggered."
+                    },
+                    {
+                        "name": "CeCILL",
+                        "description": "The CEA CNRS INRIA Logiciel Libre is a copyleft license adapted to both international and French legal matters, where modifications to the software be distributed under the same license terms."
+                    },
+                    {
+                        "name": "MIT",
+                        "description": "The MIT License is a permissive free software license which requires attribution in derived source code."
+                    },
+                    {
+                        "name": "BSD",
+                        "description": "BSD licenses are a family of permissive free software licenses which require attribution in derived source code and binaries."
+                    },
+                    {
+                        "name": "Apache",
+                        "description": "The Apache License is a permissive free software license which requires notifications to be added stating changes made to any files."
+                    },
+                    {
+                        "name": "The Unlicense",
+                        "description": "The Unlicense is a public domain equivalent license with a focus on an anti-copyright message."
+                    },
+                    {
+                        "name": "Other",
+                        "description": "Any other open-source license not listed."
+                    }
+                ]
+            },
+            {
+                "name": "Commercial",
+                "description": "A paid-for license which reserves rights to use, modify, or share the software."
+            },
+            {
+                "name": "No License",
+                "description": "No license has been applied to the software. No formal permission has been granted to use, modify or share the software."
+            },
+            {
+                "name": "Freemium",
+                "description": "A license that grants use of basic features free of charge, but additional features are subject to a commercial license."
+            },
+            {
+                "name": "Freeware",
+                "description": "A license that grants use of the software free of charge, although the source code is typically not made available."
+            },
+            {
+                "name": "Non-commercial",
+                "description": "A license that grants use of the software free of charge for non-commercial purposes, but a commercial license is otherwise required."
+            },
+            {
+                "name": "Government Use",
+                "description": "A license that grants the local territory's government and its contractors use of the software."
+            },
+            {
+                "name": "Other",
+                "description": "Any other license type not listed."
+            }
+        ]
+    },
+    {
+        "title": "Life Cycle",
+        "description": "Applicable marine renewable energy technology life cycle phases for the software package.",
+        "terms": [
+            {
+                "name": "Design",
+                "description": "The software is applied to developing a technology before it is built."
+            },
+            {
+                "name": "Manufacturing",
+                "description": "The software is applied in the physical manufacturing of the technology (or its ancillaries)."
+            },
+            {
+                "name": "Deployment",
+                "description": "The software is applied during the installation of the technology."
+            },
+            {
+                "name": "Condition Monitoring",
+                "description": "The software is applied while monitoring the health of the technology while in operation."
+            },
+            {
+                "name": "Operations and Maintenance",
+                "description": "The software is applied during the operational lifetime of the technology (excluding condition monitoring)."
+            },
+            {
+                "name": "Decommissioning",
+                "description": "The software is applied during the removal of the technology at the end of its lifespan."
+            }
+        ]
+    },
+    {
+        "title": "Logo URL",
+        "description": "Link to software or company logo."
+    },
+    {
+        "title": "Method",
+        "description": "Underlying theory or method of the software package.",
+        "terms": [
+            {
+                "name": "Acoustic Wave Equation",
+                "description": "The acoustic wave equation governs the propagation of acoustic waves through a material medium."
+            },
+            {
+                "name": "Actuator Line Method",
+                "description": "A method which applies a body force, based on tabular data, along lines corresponding to individual rotor blades."
+            },
+            {
+                "name": "Blade Element Momentum Theory",
+                "description": "Analytical method for determining the power and forces generated by a rotor, taking into account its angular momentum."
+            },
+            {
+                "name": "Boundary Element Method (BEM)",
+                "description": "Computational method of solving linear partial differential equations (such as Laplace's equation), e.g. for potential flow."
+            },
+            {
+                "name": "Boussinesq",
+                "description": "An approximation for water waves that is valid for weakly non-linear and fairly long waves."
+            },
+            {
+                "name": "Bubble Image Velocimetry (BIV)",
+                "description": "Processing of images of tracer bubbles (in an Eulerian frame of reference) to determine the velocity field of a fluid in an experiment."
+            },
+            {
+                "name": "Cable Routing",
+                "description": "Algorithms for determining the optimal positioning of cables within a farm of devices."
+            },
+            {
+                "name": "Cartesian Cut-Cell",
+                "description": "Computational method that uses a Cartesian grid over most of the domain with cells cut into a smaller irregular cells when intersected by a boundary."
+            },
+            {
+                "name": "Computational Fluid Dynamics (CFD)",
+                "description": "General computational methods for solving the Navier-Stokes equations."
+            },
+            {
+                "name": "Conservation Planning",
+                "description": "The process of locating, configuring, implementing and maintaining areas that are managed to promote the persistence of biodiversity and other natural values."
+            },
+            {
+                "name": "Cummins Equation",
+                "description": "The Cummins equation is commonly used to express the motion behaviour of a floating offshore structure."
+            },
+            {
+                "name": "Data Acquisition",
+                "description": "Sampling signals and converting the resulting samples into digital numeric values."
+            },
+            {
+                "name": "Discrete Vortex Method",
+                "description": "A numerical technique for the solution of the two-dimensional Navier-Stokes equations in vorticity-transport form."
+            },
+            {
+                "name": "Distribution Management System (DMS)",
+                "description": "Applications designed to monitor & control the entire distribution network efficiently and reliably."
+            },
+            {
+                "name": "Ecological Risk Assessment",
+                "description": "The process for evaluating how likely it is that the environment might be impacted as a result of exposure to one or more environmental stressors."
+            },
+            {
+                "name": "Energy Balance",
+                "description": "Verification and analysis of emergence, transformation and use of energy sources within an economic zone."
+            },
+            {
+                "name": "Environmental Contours",
+                "description": "A method to define multivariate extremes based on a joint probabilistic model of variables."
+            },
+            {
+                "name": "Euler Equations",
+                "description": "The Navier-Stokes equations with zero viscosity and zero thermal conductivity."
+            },
+            {
+                "name": "Extreme Value Analysis",
+                "description": "A branch of statistics dealing with the extreme deviations from the median of probability distributions."
+            },
+            {
+                "name": "Finite Difference Method",
+                "description": "Finite difference methods simulate physical phenomena by discretizing a domain into small elements, using a regular grid."
+            },
+            {
+                "name": "Finite Element Analysis",
+                "description": "Finite Element Analysis simulates physical phenomena by discretizing a domain into small elements, using an unstructured mesh."
+            },
+            {
+                "name": "Geographic Information System (GIS)",
+                "description": "Relating to databases for geographic data and tools to manipulate that data."
+            },
+            {
+                "name": "High-Order Spectral",
+                "description": "The solution of differential equations as a sum of high-order \"basis functions\" with coefficients chosen to satisfy the differential equation as well as possible."
+            },
+            {
+                "name": "Image Processing",
+                "description": "Processing digital images through an algorithm."
+            },
+            {
+                "name": "Incompressible Navier-Stokes",
+                "description": "The incompressible from of the Navier-Stokes equations."
+            },
+            {
+                "name": "Internet of Things (IoT)",
+                "description": "Physical objects (or groups of such objects) with sensors, processing ability, software, and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks."
+            },
+            {
+                "name": "Inverse First-Order Reliability Method",
+                "description": "A semi-probabilistic reliability analysis method devised to evaluate the reliability of a system."
+            },
+            {
+                "name": "Jensen's Wake Model",
+                "description": "An analytical method for determining the velocity within the wake of a turbine."
+            },
+            {
+                "name": "Large Eddy Simulation (LES)",
+                "description": "Direct simulation of the Navier-Stokes equations replacing small scale phenomena with analytical solutions."
+            },
+            {
+                "name": "Life Cycle Assessment",
+                "description": "A methodology for assessing environmental impacts associated with all the stages of the life cycle of a commercial product, process, or service."
+            },
+            {
+                "name": "Linear Wave Theory",
+                "description": "An approximation for water waves based on linearization of the boundary conditions of Laplace's equation."
+            },
+            {
+                "name": "Logistics",
+                "description": "Relating to the process of acquisition, storage, and transportation of components."
+            },
+            {
+                "name": "Lumped Mass Method (LMM)",
+                "description": "An approximation to a long continuous mass using discrete point masses."
+            },
+            {
+                "name": "Marine Spatial Planning (MSP)",
+                "description": "A process that brings together multiple users of the ocean (including energy, industry, government, conservation and recreation) to make informed and coordinated decisions about how to use marine resources sustainably."
+            },
+            {
+                "name": "Maximum Likelihood Estimation",
+                "description": "A method of estimating the parameters of an assumed probability distribution, given some observed data."
+            },
+            {
+                "name": "Mechanics",
+                "description": "The area of mathematics and physics concerned with the relationships between force, matter, and motion among physical objects."
+            },
+            {
+                "name": "Modal Analysis",
+                "description": "The study of the dynamic properties of systems in the frequency domain."
+            },
+            {
+                "name": "Moment Matching",
+                "description": "An approximation based on interpolating a certain number of points on the complex plane, termed moments."
+            },
+            {
+                "name": "Morrison's Equation",
+                "description": "Used for calculating the wave loads on fixed vertical cylinders."
+            },
+            {
+                "name": "Motion Detection",
+                "description": "The process of detecting a change in the position of an object relative to its surroundings."
+            },
+            {
+                "name": "Multipole Expansion",
+                "description": "An angle based mathematical series which is used to approximate functions, such as for boundary element methods."
+            },
+            {
+                "name": "Natural Language Processing (NLP)",
+                "description": "Processing and analyzing of large amounts of natural language data by computers."
+            },
+            {
+                "name": "Optical Flow",
+                "description": "Relating to the pattern of apparent motion of objects, surfaces, and edges in a visual scene caused by the relative motion between an observer and a scene."
+            },
+            {
+                "name": "Optimal Power Flow",
+                "description": "Algorithms for optimising the costs of an electrical network."
+            },
+            {
+                "name": "Optimization",
+                "description": "Algorithms for automatic minimization of some cost function."
+            },
+            {
+                "name": "Panel Method",
+                "description": "Numerical schemes for solving potential flow problems using a series of singularities."
+            },
+            {
+                "name": "Particle Image Velocimetry (PIV)",
+                "description": "Processing of images of tracer seed particles (in an Eulerian frame of reference) to determine the velocity field of a fluid in an experiment."
+            },
+            {
+                "name": "Potential Flow",
+                "description": "Fluid flow where the velocity field is described as the gradient of a scalar function, known as the velocity potential, typically used for incompressible flow."
+            },
+            {
+                "name": "Primitive Equations",
+                "description": "A set of nonlinear partial differential equations that are used to approximate global atmospheric flow and are used in most atmospheric models."
+            },
+            {
+                "name": "Pseudo-Spectral",
+                "description": "A spectral method applied in a discrete space."
+            },
+            {
+                "name": "Particle Tracking Velocimetry (PTV)",
+                "description": "Tracking the motion of tracer seed particles (in a Lagrangian frame of reference) to determine the velocity field of a fluid in an experiment."
+            },
+            {
+                "name": "Quasi-Static Loads",
+                "description": "Related to solid mechanics algorithms where inertial effects are considered to be negligible."
+            },
+            {
+                "name": "Robotics Middleware",
+                "description": "Middleware to be used in complex robot control software systems."
+            },
+            {
+                "name": "SCADA",
+                "description": "Supervisory control and data acquisition (SCADA) is a control system for high-level supervision of machines and processes."
+            },
+            {
+                "name": "Shallow Water Equations",
+                "description": "Depth-integrated form of the Navier-Stokes equations, where the horizontal length scale is much greater than the vertical length scale."
+            },
+            {
+                "name": "Shape Analysis",
+                "description": "The automatic analysis of geometric shapes."
+            },
+            {
+                "name": "Smoothed-Particle Hydrodynamics (SPH)",
+                "description": "The discretization of a continuous medium is into a set of particles that interact with each other and move at the fluid's velocity."
+            },
+            {
+                "name": "State Space",
+                "description": "A model of a physical system as a set of input, output and state variables related by first-order differential equations or difference equations."
+            },
+            {
+                "name": "Static Loads",
+                "description": "Solid mechanics analysis where loads don't change with time."
+            },
+            {
+                "name": "Statistics",
+                "description": "Relating to the application of probability theory to data."
+            },
+            {
+                "name": "Stream Function",
+                "description": "A function where flow velocity components can be determined from its derivatives."
+            },
+            {
+                "name": "Subsurface Science",
+                "description": "Relating to subterranean processes, such as subsurface flows."
+            },
+            {
+                "name": "Tidal Harmonics",
+                "description": "The representation of tides as the superposition of basic waves using Fourier analysis."
+            },
+            {
+                "name": "Verification and Validation",
+                "description": "Relating to the processes for quantifying and building confidence (or credibility) in numerical models."
+            },
+            {
+                "name": "Vortex Lattice Method (VLM)",
+                "description": "A method which models a lifting surface as an infinitely thin sheet of discrete vortices."
+            },
+            {
+                "name": "Vortex Particle Method (VPM)",
+                "description": "A mesh-free approach to computational fluid dynamics, where fluid is discretized into discrete particles."
+            },
+            {
+                "name": "Vorticity Transport Equation",
+                "description": "An equation that describes the evolution of the vorticity of a particle of an incompressible fluid as it moves."
+            },
+            {
+                "name": "Wave Spectral Analysis",
+                "description": "Discretisation and analysis of ocean wave energy as frequencies of wave-lengths."
+            },
+            {
+                "name": "Wind Wave Model",
+                "description": "Models which predict sea states and the evolution of the energy of wind waves subject to forcing from wind and/or tides."
+            }
+        ]
+    },
+    {
+        "title": "Note",
+        "description": "Additional notes relating to the package."
+    },
+    {
+        "title": "Primary Use",
+        "description": "The primary technologies applicable to the software package.",
+        "terms": [
+            {
+                "name": "Marine Renewable Energy",
+                "description": "Wave, Current, OTEC, and Salinity Gradient."
+            },
+            {
+                "name": "Naval Architecture",
+                "description": "The design process, building, maintenance, and operation of marine vessels and structures."
+            },
+            {
+                "name": "Ocean and Coastal Engineering",
+                "description": "Engineering concerned with construction at or near the coast, as well as the development of the coast itself."
+            },
+            {
+                "name": "Offshore Oil and Gas",
+                "description": "Activity undertaken at, or under the, sea in association with oil or natural gas extraction."
+            },
+            {
+                "name": "Offshore Wind",
+                "description": "Activities associated with wind energy extraction sited in bodies of water."
+            },
+            {
+                "name": "Other",
+                "description": "Any other use not listed."
+            }
+        ]
+    },
+    {
+        "title": "Programming Language",
+        "description": "Programming languages used to create (or operate) the software package.",
+        "terms": [
+            {
+                "name": "C",
+                "description": "A general-purpose, procedural, statically typed, compiled programming language with a static type system."
+            },
+            {
+                "name": "C++",
+                "description": "A superset of the C programming language with support for object orientated programming among other features."
+            },
+            {
+                "name": "Fortran",
+                "description": "A general-purpose, statically typed, compiled programming language that is designed for numeric computation and scientific computing."
+            },
+            {
+                "name": "Java",
+                "description": "A general-purpose, object-oriented, statically typed, compiled programming language that runs on Java virtual machines (JVMs). Typically used for web applications."
+            },
+            {
+                "name": "JavaScript",
+                "description": "A general-purpose, dynamically typed, interpreted programming language that runs inside of a web browser."
+            },
+            {
+                "name": "MATLAB",
+                "description": "Proprietary general-purpose, dynamically typed, interpreted programming language and numeric computing environment."
+            },
+            {
+                "name": "Python",
+                "description": "A general-purpose, dynamically typed, interpreted programming language."
+            },
+            {
+                "name": "R",
+                "description": "A dynamically typed, interpreted programming language and software environment for statistical computing."
+            },
+            {
+                "name": "Other",
+                "description": "Any other programming language not listed."
+            }
+        ]
+    },
+    {
+        "title": "TRL",
+        "description": "Applicable technology readiness level (TRL) ranges of the technology supported by the software package.",
+        "terms": [
+            {
+                "name": "1-3",
+                "description": "Fundamental technology research."
+            },
+            {
+                "name": "4-6",
+                "description": "Technology demonstration at lab and prototype scale."
+            },
+            {
+                "name": "7-9",
+                "description": "Market launch and commercialisation."
+            }
+        ]
+    },
+    {
+        "title": "Technology",
+        "description": "Marine renewable energy (MRE) technologies applicable to the software package.",
+        "terms": [
+            {
+                "name": "Wave",
+                "description": "Capturing energy from water waves."
+            },
+            {
+                "name": "Current",
+                "description": "Capturing energy from tidal channels, ocean currents, or rivers."
+            },
+            {
+                "name": "OTEC",
+                "description": "Capturing energy using temperature gradients across water depths."
+            },
+            {
+                "name": "Salinity Gradient",
+                "description": "Capturing energy using salinity gradients where freshwater meets seawater."
+            },
+            {
+                "name": "Other",
+                "description": "Any other technology not listed."
+            }
+        ]
+    },
+    {
+        "title": "Title",
+        "description": "The name of the software package."
+    },
+    {
+        "title": "Web Address",
+        "description": "The URL of the software package."
+    }
+]
