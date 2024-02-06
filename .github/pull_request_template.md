@@ -22,6 +22,6 @@ changes to the schema, please describe the reasons for that change.
 Mark the following checklist items as appropriate:
 
 - [ ] All required fields are completed
-- [ ] All usused fields have been deleted
+- [ ] All unused fields have been deleted
 - [ ] Two spaces have been used to represent a paragraph break in the software description
 - [ ] Any new fields or options have been added to the schema
