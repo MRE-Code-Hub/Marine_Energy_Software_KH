@@ -13,9 +13,7 @@ Please enter the name of the software being added, updated or deleted here.
 
 ## Description of changes
 
-Please describe the reasons for your changes, such as why any new software
-should be included, or why you feel it should be changed or removed. If making
-changes to the schema, please describe the reasons for that change.
+Please describe the reasons for your changes, such as why any new software should be included, or why you feel it should be changed or removed. If making changes to the schema, please describe the reasons for that change.
 
 ## Checklist
 
