@@ -1,1 +1,1 @@
-![edit](../media/MRE Software Process Template Edit.gif)
+![edit](./media/MRE Software Process Template Edit.gif)
