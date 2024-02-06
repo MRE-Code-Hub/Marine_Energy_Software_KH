@@ -1,105 +1,27 @@
----
-name: Pull request template
-about: Allows users to add new software to the database
-title: "[PULL REQUEST]"
 
----
-**Note: italicized text below is include as an example and should be removed prior to submission**
+## Change category [delete as appropriate]:
 
-``` python
++ Contributing new software
++ Updating existing software
++ Deleting existing software
++ Schema revision
++ Something else
 
-Collection Method: 
-  - _Point of use of the software package, i.e. the physical source of data transformed by the software._
-  - Modeling
-  - Laboratory
-  - Field
+## Name of software being added or changed
 
-Country of Origin:
-  - _Domestic or International_
-  - Domestic (USA)
-  - International
+Please enter the name of the software being added, updated or deleted here.
 
-Description: >-
-  - _(only for software not on GitHub) Brief description of the software_
+## Description of changes
 
-Developer: _The name of the software developer, e.g. company, research body, individual._
+Please describe the reasons for your changes, such as why any new software
+should be included, or why you feel it should be changed or removed. If making
+changes to the schema, please describe the reasons for that change.
 
-Discipline:
-  - _Applicable disciplines or functionalities of the software package._
+## Checklist
 
-Interface: 
-  - _OPTIONAL: The means by which the user interacts with the software._
-  - Graphical
-  - Textual
-  - web-API
-  - Web Page
+Mark the following checklist items as appropriate:
 
-Funding: 
-  - _Is the software funded by DOE WPTO?_
-  - WPTO
-  
-License Type: 
-  - _The types, if any, of license governing use and development of the software._
-  - Open-Source
-  - Commercial
-  - No License
-  - Freemium
-  - Freeware
-  - Non-commercial
-  - Government Use
-  - Other
-
-Logo URL: _(only for commercial software) Does the software have a logo?_
-
-Life Cycle: 
-  - _Applicable marine renewable energy technology life cycle phases for the software package._
-  - Design
-  - Manufacturing
-  - Deployment
-  - Condition Monitoring
-  - Operations and Maintenance
-  - Decommissioning
-
-Method: 
-  - _Underlying theory or method of the software package._
-
-Primary Use: 
-  - _The primary technologies applicable to the software package._
-  - Marine Renewable Energy
-  - Naval Architecture
-  - Ocean and Coastal Engineering
-  - Offshore Oil and Gas
-  - Offshore Wind
-  - Other
-
-Programming Language: 
-  - _Programming languages used to create (or operate) the software package._
-  - C
-  - C++
-  - Fortran
-  - Java
-  - JavaScript
-  - MATLAB
-  - Python
-  - R
-  - Other
-
-TRL: 
-  - _Applicable technology readiness level (TRL) ranges of the technology supported by the software package._
-  - 1-3
-  - 4-6
-  - 7-9
-
-Technology: 
-  - _Marine renewable energy (MRE) technologies applicable to the software package._
-  - Wave
-  - Current
-  - OTEC
-  - Salinity Gradient
-  - Other
-
-Title: _The name of the software package._
-
-Web Address: _The URL of the software package._
-
-``` 
+- [ ] All required fields are completed
+- [ ] All usused fields have been deleted
+- [ ] Two spaces have been used to represent a paragraph break in the software description
+- [ ] Any new fields or options have been added to the schema
