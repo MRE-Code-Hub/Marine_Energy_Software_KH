@@ -16,22 +16,17 @@ Below, guides are provided for the for the following contribution types:
 
 ## Adding a new record
 
-Two possible approaches to adding a new record are shown below, with the first
-two steps being different for each. Step 3 and beyond are identical for both
-approaches.
+To add a new record, rename and edit the record template as shown in the steps
+below.
 
-### Approach A
-
-In this approach, the record template is renamed and edited directly.
-
-#### Step 1. Edit the `template.yaml` file
+### Step 1. Edit the `template.yaml` file
 
 Click on the `template.yaml` file in the **Code** view and then click the edit
 button. A new fork may be created.
 
 <img src="./media/add_record/MRE_Software_Process_Template_Edit.gif" width="600">
 
-#### Step 2. Rename the template
+### Step 2. Rename the template
 
 Click on the file name and change `template.yaml` to `records/<YOUR FILE
 NAME>`. The forward slash (`/`) after `records` is important in order to place
@@ -41,35 +36,6 @@ Choose a file name that represents the software, but avoid using spaces. For
 example `my_software.yaml`.
 
 <img src="./media/add_record/MRE_Software_Process_Template_Rename.gif" width="600">
-
-### Approach B
-
-In this approach, the record template's content is copied and added to a new
-file created in the `records` folder.
-
-#### Step 1. Copy template contents
-
-Click on the `template.yaml` file in the **Code** view and then copy
-(Ctrl+C etc.) its contents. Then return to the repositories root directory.
-
-<img src="./media/add_record/MRE_Software_Process_Copy_Template.gif" width="600">
-
-#### Step 2. Add file in `records` folder
-
-Click on the `records` folder. Then click on the `···` menu button. Click on
-the `+ Create new file` option to open a new file.
-
-Enter the name of your file. Choose a file name that represents the software,
-but avoid using spaces. For example `my_software.yaml`.
-
-Finally, paste the contents of the record template into the editing window.
-
-<img src="./media/add_record/MRE_Software_Process_Records_Add_File.gif" width="600">
-
-For wider browser windows, the `+ Create new file` option can be found by
-clicking on the `Add file` button.
-
-<img src="./media/add_record/add_file_button.png">
 
 ### Step 3. Edit record fields
 
