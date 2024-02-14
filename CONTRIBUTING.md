@@ -124,9 +124,9 @@ To start editing the file, click the edit button. A new fork may be created.
 
 Use the record template (opened in [step 1](#step-1-open-the-record-template))
 to update fields and options in the existing record's file. Take care not to
-remove any required fields and to keep the indentation is correct. See
-[step 3](#step-3-edit-record-fields) of the "Adding a new record" guide for
-further details.
+remove any required fields and to keep the indentation correct. See [step
+3](#step-3-edit-record-fields) of the "Adding a new record" guide for further
+details.
 
 <img src="./media/edit_record/MRE_Software_Process_Update_Fields.gif" width="600">
 
