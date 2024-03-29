@@ -4,6 +4,7 @@ Cost: Free
 Country of Origin:
   - Domestic (USA)
 Developer: Sandia National Labs
+Dependencies: Delft3D Flexible Mesh Suite
 Discipline:
   - Array Effects
   - Hydrodynamics
@@ -29,5 +30,5 @@ TRL:
   - 7-9
 Technology:
   - Current
-Title: Delft3D-FM-CEC
-Web Address: https://github.com/SNL-WaterPower/SNL-Delft3D-CEC
+Title: SNL-Delft3D-FM-CEC
+Web Address: https://github.com/sandialabs/SNL-Delft3D-FM-CEC
