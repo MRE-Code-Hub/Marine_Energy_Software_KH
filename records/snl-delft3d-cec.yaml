@@ -3,7 +3,7 @@ Collection Method:
 Cost: Free
 Country of Origin:
   - Domestic (USA)
-Dependencies: Delft3D Flexible Mesh Suite
+Dependencies: Delft3D 4 Suite
 Developer: Sandia
 Discipline:
   - Array Effects
@@ -26,4 +26,4 @@ TRL:
 Technology:
   - Current
 Title: SNL-Delft3D-CEC
-Web Address: https://github.com/SNL-WaterPower/SNL-Delft3D-CEC
+Web Address: https://github.com/sandialabs/SNL-Delft3D-CEC

@@ -1,0 +1,41 @@
+Collection Method:
+  - Modeling
+Cost: Free
+Country of Origin:
+  - International
+Description: >-
+  Delft3D is an integrated modelling suite, which simulates two-dimensional (in
+  either the horizontal or a vertical plane) and three-dimensional flow,
+  sediment transport and morphology, waves, water quality and ecology and is
+  capable of handling the interactions between these processes.
+Developer: Deltares
+Discipline:
+  - Extreme Events
+  - Sediment Transport
+  - Site Characterization
+Interface:
+  - Graphical
+License Type:
+  - Open-Source:
+      - GPL
+Life Cycle:
+  - Design
+  - Operations and Maintenance
+Logo URL: https://project-geolab.eu/wp-content/uploads/2021/03/Deltares_logo_D-blauw_RGB.png
+Method:
+  - Shallow Water Equations
+  - Wave Spectral Analysis
+Primary Use:
+  - Ocean and Coastal Engineering
+Programming Language:
+  - Fortran
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Current
+  - Salinity Gradient
+  - Wave
+Title: Delft3D 4 Suite
+Web Address: https://www.deltares.nl/en/software-and-data/products/delft3d-4-suite
