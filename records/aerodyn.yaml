@@ -1,0 +1,44 @@
+Collection Method:
+  - Modeling
+  - Laboratory
+  - Field
+Cost: Free
+Country of Origin:
+  - Domestic (USA)
+Description: >-
+  AeroDyn is a time-domain wind and marine turbine aero/hydrodynamics module that is coupled in the OpenFAST multi-physics engineering tool to enable aero-elastic simulation of turbines. AeroDyn can also be driven as a standalone code to compute turbine aero/hydrodynamic response uncoupled from OpenFAST. AeroDyn contains blade element momentun and free vortex wake solvers. 
+Discipline:
+  - Hydrodynamics
+  - Performance
+  - Turbulence
+Funding:
+  - WPTO
+Interface:
+  - Textual
+License Type:
+  - Open-Source:
+      - Apache
+Life Cycle:
+  - Design
+Method:
+  - Actuator Line Method
+  - Blade Element Momentum Theory
+  - Morrison's Equation
+  - Vortex Lattice Method (VLM)
+  - Vortex Particle Method (VPM)
+Primary Use:
+  - Marine Renewable Energy
+  - Offshore Wind
+Programming Language:
+  - C
+  - C++
+  - Fortran
+  - Python
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Current
+Title: AeroDyn
+Web Address: https://github.com/OpenFAST/openfast/tree/main/modules/aerodyn
