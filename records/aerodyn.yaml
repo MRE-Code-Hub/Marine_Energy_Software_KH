@@ -5,8 +5,12 @@ Collection Method:
 Cost: Free
 Country of Origin:
   - Domestic (USA)
-Description: >-
-  AeroDyn is a time-domain wind and marine turbine aero/hydrodynamics module that is coupled in the OpenFAST multi-physics engineering tool to enable aero-elastic simulation of turbines. AeroDyn can also be driven as a standalone code to compute turbine aero/hydrodynamic response uncoupled from OpenFAST. AeroDyn contains blade element momentun and free vortex wake solvers. 
+Description: "AeroDyn is a time-domain wind and marine turbine aero/hydrodynamics\
+  \ module that is coupled in the OpenFAST multi-physics engineering tool\
+  \ to enable aero-elastic simulation of turbines. AeroDyn can also be\
+  \ driven as a standalone code to compute turbine aero/hydrodynamic response\
+  \ uncoupled from OpenFAST. AeroDyn contains blade element momentun and\
+  \ free vortex wake solvers. "
 Discipline:
   - Hydrodynamics
   - Performance
