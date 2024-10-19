@@ -1,0 +1,38 @@
+Collection Method:
+  - Modeling
+  - Laboratory
+  - Field
+Cost: Free
+Country of Origin:
+  - Domestic (USA)
+Description: >-
+  SubDyn is a time-domain structural-dynamics module for multimember wind and marine turbine substructures. The module has been coupled into the OpenFAST aero-hydro-servo-elastic engineering tool. SubDyn can also be driven as a standalone code to compute the mode shapes, natural frequencies, and time-domain responses of substructures under prescribed motion at the interface to the tower, uncoupled from OpenFAST and in the absence of external loading other than gravity. SubDyn relies on two main engineering schematizations: (1) a linear frame finite-element beam model (LFEB), and (2) a dynamics system reduction via the Craig-Bampton (C-B) method, together with a static-improvement method (SIM), greatly reducing the number of modes needed to obtain an accurate solution.
+Discipline:
+  - Structural
+  - Substructure
+Interface:
+  - Textual
+License Type:
+  - Open-Source:
+      - Apache
+Life Cycle:
+  - Design
+Method:
+  - Finite Element Analysis
+  - Modal Analysis
+Primary Use:
+  - Marine Renewable Energy
+  - Offshore Wind
+Programming Language:
+  - C
+  - C++
+  - Fortran
+  - Python
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Current
+Title: SubDyn
+Web Address: https://github.com/OpenFAST/openfast/tree/main/modules/subdyn
