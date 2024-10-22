@@ -7,13 +7,13 @@ Country of Origin:
   - Domestic (USA)
 Description: >-
   The FEAMooring module in OpenFAST calculates the mooring line restoring force at the
-fairlead position of a floating platform considering the inertia and drag forces at each line
-element. In FEAMooring, the elastic rod model is used for modeling the mooring system.
-This model is ideal for small strain, large displacement structural analysis of slender members
-such as tether and catenary mooring lines. A single global coordinate system is used in the
-finite element formulation of the rod model. Therefore, the model is simpler and more efficient
-than other conventional nonlinear models, such as the updated Lagrangian beam model. In FEAMooring, the model was improved to include the stretch of the
-element under the axial tension.
+  fairlead position of a floating platform considering the inertia and drag forces at each line
+  element. In FEAMooring, the elastic rod model is used for modeling the mooring system.
+  This model is ideal for small strain, large displacement structural analysis of slender members
+  such as tether and catenary mooring lines. A single global coordinate system is used in the
+  finite element formulation of the rod model. Therefore, the model is simpler and more efficient
+  than other conventional nonlinear models, such as the updated Lagrangian beam model. In FEAMooring, the model was improved to include the stretch of the
+  element under the axial tension.
 Discipline:
   - Mooring
 Interface:
