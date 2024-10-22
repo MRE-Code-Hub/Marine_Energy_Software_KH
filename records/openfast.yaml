@@ -6,7 +6,16 @@ Cost: Free
 Country of Origin:
   - Domestic (USA)
 Description: >-
-  OpenFAST is a multi-physics, multi-fidelity tool for simulating the coupled dynamic response of wind and marine turbines. Practically speaking, OpenFAST is the framework (or “glue code”) that couples computational modules for rotor aero/hydrodynamics, hydrodynamics for offshore structures, control and electrical system (servo) dynamics, and structural dynamics to enable coupled nonlinear aero-hydro-servo-elastic simulation in the time domain. OpenFAST enables the analysis of a range of wind and marine turbine configurations. Wind turbines can be modeled on land or offshore on fixed-bottom or floating substructures, and marine turbines can be modeled as fixed or floating.
+  OpenFAST is a multi-physics, multi-fidelity tool for simulating the coupled
+  dynamic response of wind and marine turbines. Practically speaking, OpenFAST
+  is the framework (or “glue code”) that couples computational modules
+  for rotor aero/hydrodynamics, hydrodynamics for offshore structures,
+  control and electrical system (servo) dynamics, and structural dynamics
+  to enable coupled nonlinear aero-hydro-servo-elastic simulation in the
+  time domain. OpenFAST enables the analysis of a range of wind and marine
+  turbine configurations. Wind turbines can be modeled on land or offshore
+  on fixed-bottom or floating substructures, and marine turbines can be
+  modeled as fixed or floating.
 Discipline:
   - Acoustics
   - Control

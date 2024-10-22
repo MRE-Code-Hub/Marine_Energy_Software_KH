@@ -5,8 +5,11 @@ Collection Method:
 Cost: Free
 Country of Origin:
   - Domestic (USA)
-Description: >-
-  InflowWind is a module for processing wind and current inflow. It has been coupled to the OpenFAST wind and marine turbine multi-physics engineering tool to enable aero-hydro-servo-elastic simulation of wind and marine turbines. InflowWind can also be driven as a standalone code to process wind and current inflow uncoupled from OpenFAST. 
+Description: "InflowWind is a module for processing wind and current inflow.\
+  \ It has been coupled to the OpenFAST wind and marine turbine multi-physics\
+  \ engineering tool to enable aero-hydro-servo-elastic simulation of wind\
+  \ and marine turbines. InflowWind can also be driven as a standalone\
+  \ code to process wind and current inflow uncoupled from OpenFAST. "
 Discipline:
   - Turbulence
 Funding:

@@ -6,7 +6,16 @@ Cost: Free
 Country of Origin:
   - Domestic (USA)
 Description: >-
-  BeamDyn is a time-domain structural-dynamics module for slender structures. The module couples into the OpenFAST aero-hydro-servo-elastic wind and marine turbine multi-physics engineering tool where it is used to model blade structural dynamics. BeamDyn provides capabilities for modeling initially curved and twisted composite wind and marine turbine blades undergoing large deformations. BeamDyn can also be driven as a stand-alone code to compute the static and dynamic responses of slender structures (blades or otherwise) under prescribed boundary and applied loading conditions uncoupled from OpenFAST. The model underlying BeamDyn is the geometrically exact beam theory (GEBT).
+  BeamDyn is a time-domain structural-dynamics module for slender structures.
+  The module couples into the OpenFAST aero-hydro-servo-elastic wind and
+  marine turbine multi-physics engineering tool where it is used to model
+  blade structural dynamics. BeamDyn provides capabilities for modeling
+  initially curved and twisted composite wind and marine turbine blades
+  undergoing large deformations. BeamDyn can also be driven as a stand-alone
+  code to compute the static and dynamic responses of slender structures
+  (blades or otherwise) under prescribed boundary and applied loading conditions
+  uncoupled from OpenFAST. The model underlying BeamDyn is the geometrically
+  exact beam theory (GEBT).
 Discipline:
   - Structural
 Interface:

@@ -4,7 +4,13 @@ Cost: Free
 Country of Origin:
   - Domestic (USA)
 Description: >-
-  MoorDyn is a simple, efficient, and versatile mooring system dynamics model designed to work in concert with other simulation tools. It is based on a lumped-mass discretization of a mooring line's dynamics, and adds point-mass and rigid-body objects to enable simulation of a wide variety of mooring and cabling arrangements. Hydrodynamics are included using a version of the Morison equation, and there is support for wave loads on surface-piercing cylinders.
+  MoorDyn is a simple, efficient, and versatile mooring system dynamics
+  model designed to work in concert with other simulation tools. It is
+  based on a lumped-mass discretization of a mooring line's dynamics, and
+  adds point-mass and rigid-body objects to enable simulation of a wide
+  variety of mooring and cabling arrangements. Hydrodynamics are included
+  using a version of the Morison equation, and there is support for wave
+  loads on surface-piercing cylinders.
 Discipline:
   - Mooring
 Interface:

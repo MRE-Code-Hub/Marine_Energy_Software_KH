@@ -6,7 +6,13 @@ Cost: Free
 Country of Origin:
   - Domestic (USA)
 Description: >-
-  cOnvecting LAgrangian Filaments (OLAF) is a free vortex wake (FVW) module used to compute the aero/hydrodynamic forces on lifting bodies. This module has been incorporated into the physics-based engineering tool, OpenFAST, which solves the aero-hydro-servo-elastic dynamics of individual wind and marine turbines. OLAF is incorporated into the OpenFAST module, AeroDyn, as an alternative to the traditional blade-element momentum (BEM) option.
+  cOnvecting LAgrangian Filaments (OLAF) is a free vortex wake (FVW) module
+  used to compute the aero/hydrodynamic forces on lifting bodies. This
+  module has been incorporated into the physics-based engineering tool,
+  OpenFAST, which solves the aero-hydro-servo-elastic dynamics of individual
+  wind and marine turbines. OLAF is incorporated into the OpenFAST module,
+  AeroDyn, as an alternative to the traditional blade-element momentum
+  (BEM) option.
 Discipline:
   - Hydrodynamics
   - Performance
