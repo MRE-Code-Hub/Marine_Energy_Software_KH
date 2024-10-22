@@ -1,31 +1,59 @@
 Collection Method:
   - Modeling
+  - Laboratory
+  - Field
 Cost: Free
 Country of Origin:
   - Domestic (USA)
-Developer: NREL
+Description: >-
+  OpenFAST is a multi-physics, multi-fidelity tool for simulating the coupled dynamic response of wind and marine turbines. Practically speaking, OpenFAST is the framework (or “glue code”) that couples computational modules for rotor aero/hydrodynamics, hydrodynamics for offshore structures, control and electrical system (servo) dynamics, and structural dynamics to enable coupled nonlinear aero-hydro-servo-elastic simulation in the time domain. OpenFAST enables the analysis of a range of wind and marine turbine configurations. Wind turbines can be modeled on land or offshore on fixed-bottom or floating substructures, and marine turbines can be modeled as fixed or floating.
 Discipline:
-  - Hybrid Devices
+  - Acoustics
+  - Control
   - Hydrodynamics
   - Mooring
+  - Optimization
   - Performance
+  - Power Take Off
+  - Structural
+  - Substructure
+  - Turbulence
+  - Visualization
+Funding:
+  - WPTO
+Interface:
+  - Textual
 License Type:
   - Open-Source:
       - Apache
 Life Cycle:
   - Design
 Method:
+  - Actuator Line Method
   - Blade Element Momentum Theory
-  - Boundary Element Method (BEM)
-  - Wave Spectral Analysis
+  - Finite Element Analysis
+  - Linear Wave Theory
+  - Lumped Mass Method (LMM)
+  - Modal Analysis
+  - Morrison's Equation
+  - Potential Flow
+  - Quasi-Static Loads
+  - Shallow Water Equations
+  - Vortex Lattice Method (VLM)
+  - Vortex Particle Method (VPM)
 Primary Use:
+  - Marine Renewable Energy
   - Offshore Wind
 Programming Language:
+  - C
+  - C++
   - Fortran
+  - Python
 TRL:
   - 1-3
+  - 4-6
+  - 7-9
 Technology:
-  - Other
-  - Wave
+  - Current
 Title: OpenFAST
 Web Address: https://github.com/OpenFAST/openfast

@@ -1,0 +1,33 @@
+Collection Method:
+  - Modeling
+Cost: Free
+Country of Origin:
+  - Domestic (USA)
+Description: >-
+  MoorDyn is a simple, efficient, and versatile mooring system dynamics model designed to work in concert with other simulation tools. It is based on a lumped-mass discretization of a mooring line's dynamics, and adds point-mass and rigid-body objects to enable simulation of a wide variety of mooring and cabling arrangements. Hydrodynamics are included using a version of the Morison equation, and there is support for wave loads on surface-piercing cylinders.
+Discipline:
+  - Mooring
+Interface:
+  - Textual
+License Type:
+  - Open-Source:
+      - Apache
+Life Cycle:
+  - Design
+Method:
+  - Lumped Mass Method (LMM)
+  - Morrison's Equation
+Primary Use:
+  - Marine Renewable Energy
+  - Offshore Wind
+Programming Language:
+  - Fortran
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Wave
+  - Current
+Title: MoorDyn-F
+Web Address: https://github.com/OpenFAST/openfast/tree/main/modules/moordyn

@@ -1,0 +1,40 @@
+Collection Method:
+  - Modeling
+  - Laboratory
+  - Field
+Cost: Free
+Country of Origin:
+  - Domestic (USA)
+Description: >-
+  TurbSim is a stochastic, full-field, turbulent wind and current simulator. It uses a statistical model (as
+  opposed to a physics-based model) to numerically simulate time series of three-component
+  velocity vectors at points in a two-dimensional vertical rectangular grid that is fixed in space.
+  TurbSim output can be used as input into InflowWind-based codes such as OpenFAST. InflowWind uses Taylor's frozen turbulence hypothesis to obtain local
+  wind or current speeds, interpolating the TurbSim-generated fields in both time and space.
+Discipline:
+  - Turbulence
+Funding:
+  - WPTO
+Interface:
+  - Textual
+License Type:
+  - Open-Source:
+      - Apache
+Life Cycle:
+  - Design
+Primary Use:
+  - Marine Renewable Energy
+  - Offshore Wind
+Programming Language:
+  - C
+  - C++
+  - Fortran
+  - Python
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Current
+Title: TurbSim
+Web Address: https://github.com/OpenFAST/openfast/tree/main/modules/turbsim

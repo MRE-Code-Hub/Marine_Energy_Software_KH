@@ -1,0 +1,38 @@
+Collection Method:
+  - Modeling
+  - Laboratory
+  - Field
+Cost: Free
+Country of Origin:
+  - Domestic (USA)
+Description: >-
+  HydroDyn is a time-domain hydrodynamics module that has been coupled into the OpenFAST wind and marine turbine multi-physics engineering tool to enable aero-hydro-servo-elastic simulation of marine and offshore wind turbines. HydroDyn is applicable to both fixed-bottom and floating offshore substructures. HydroDyn can also be driven as a standalone code to compute hydrodynamic loading uncoupled from OpenFAST.
+Discipline:
+  - Hydrodynamics
+  - Substructure
+Interface:
+  - Textual
+License Type:
+  - Open-Source:
+      - Apache
+Life Cycle:
+  - Design
+Method:
+  - Morrison's Equation
+  - Potential Flow
+Primary Use:
+  - Marine Renewable Energy
+  - Offshore Wind
+Programming Language:
+  - C
+  - C++
+  - Fortran
+  - Python
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Current
+Title: HydroDyn
+Web Address: https://github.com/OpenFAST/openfast/tree/main/modules/hydrodyn
