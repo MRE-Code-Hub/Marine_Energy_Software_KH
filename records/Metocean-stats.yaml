@@ -12,7 +12,7 @@ Dependencies:
   - Hello world!
 # OPTIONAL: The description of the software package.
 Description: >-
-Metocean-stats is a tool for comprehensive statistics and visualization of metocean data (wind, waves, ocean currents, tide levels, air and water temperature, sea ice, and more). The tool is also compatible with WEkEO Jupyter Lab, allowing seamless integration and use.
+  Metocean-stats is a tool for comprehensive statistics and visualization of metocean data (wind, waves, ocean currents, tide levels, air and water temperature, sea ice, and more). The tool is also compatible with WEkEO Jupyter Lab, allowing seamless integration and use.
 # OPTIONAL: The name of the software developer, e.g. company, research body, individual.
 Developer: Hello world!
 # OPTIONAL: Applicable disciplines or functionalities of the software package.
