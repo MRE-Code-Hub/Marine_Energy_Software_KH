@@ -1,65 +1,51 @@
-# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
 Collection Method:
   - Modeling
-# OPTIONAL: Estimated cost of the software (Free or Paid).
 Cost: Free
-# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
 Country of Origin:
   - Domestic (USA)
   - International
-# OPTIONAL: Major dependencies and add-on packages of the software package, e.g. for pre- and post-processing.
 Dependencies:
   - Hello world!
-# OPTIONAL: The description of the software package.
 Description: >-
-  Metocean-stats is a tool for comprehensive statistics and visualization of metocean data (wind, waves, ocean currents, tide levels, air and water temperature, sea ice, and more). The tool is also compatible with WEkEO Jupyter Lab, allowing seamless integration and use.
-# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+  Metocean-stats is a tool for comprehensive statistics and visualization
+  of metocean data (wind, waves, ocean currents, tide levels, air and water
+  temperature, sea ice, and more). The tool is also compatible with WEkEO
+  Jupyter Lab, allowing seamless integration and use.
 Developer: Hello world!
-# OPTIONAL: Applicable disciplines or functionalities of the software package.
 Discipline:
   - Extreme Events
   - Site Characterization
   - Visualization
-# OPTIONAL: The means by which the user interacts with the software.
 Interface:
   - Textual
-# OPTIONAL: The types, if any, of license governing use and development of the software.
 License Type:
   - Open-Source:
       - GPL
-# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
 Life Cycle:
   - Design
   - Deployment
   - Operations and Maintenance
   - Decommissioning
-# OPTIONAL: Underlying theory or method of the software package.
 Method:
   - Statistics
   - Wind Wave Model
-# REQUIRED: The primary technologies applicable to the software package.
 Primary Use:
   - Marine Renewable Energy
   - Naval Architecture
   - Ocean and Coastal Engineering
   - Offshore Oil and Gas
   - Offshore Wind
-# OPTIONAL: Programming languages used to create (or operate) the software package.
 Programming Language:
   - Python
-# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
 TRL:
   - 1-3
   - 4-6
   - 7-9
-# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
 Technology:
   - Wave
   - Current
   - OTEC
   - Salinity Gradient
   - Other
-# REQUIRED: The name of the software package.
 Title: Metocean-stats
-# OPTIONAL: The URL of the software package.
 Web Address: https://github.com/MET-OM/metocean-stats

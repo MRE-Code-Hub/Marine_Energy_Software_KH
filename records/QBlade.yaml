@@ -1,17 +1,17 @@
-# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
 Collection Method:
   - Modeling
-# OPTIONAL: Estimated cost of the software (Free or Paid).
 Cost: Free
-# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
 Country of Origin:
   - International
-# OPTIONAL: The description of the software package.
 Description: >-
-  QBlade is a beyond the state of the art aero-servo-hydro-elastic code, covering the complete range of aspects required for wind turbine design, simulation, and certification. QBlade has been developed, tested, and validated during more than 10 years from the ground up, favoring a modular implementation of highly efficient novel aerodynamic, structural dynamic and hydrodynamic solvers in a modern, object-oriented C++ framework.
-# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
-Developer: Dr. David Martin - Technical University of Berlin, Chair of Fluid Dynamics
-# OPTIONAL: Applicable disciplines or functionalities of the software package.
+  QBlade is a beyond the state of the art aero-servo-hydro-elastic code,
+  covering the complete range of aspects required for wind turbine design,
+  simulation, and certification. QBlade has been developed, tested, and
+  validated during more than 10 years from the ground up, favoring a modular
+  implementation of highly efficient novel aerodynamic, structural dynamic
+  and hydrodynamic solvers in a modern, object-oriented C++ framework.
+Developer: >-
+  Dr. David Martin - Technical University of Berlin, Chair of Fluid Dynamics
 Discipline:
   - Array Effects
   - Extreme Events
@@ -30,16 +30,12 @@ Discipline:
   - Survivability
   - Turbulence
   - Visualization
-# OPTIONAL: The types, if any, of license governing use and development of the software.
 License Type:
   - Freemium
-# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
 Life Cycle:
   - Design
   - Operations and Maintenance
-# OPTIONAL: Link to software or company logo.
 Logo URL: https://qblade.org/assets/QBlade_logo_black-768x242.png.webp
-# OPTIONAL: Underlying theory or method of the software package.
 Method:
   - Blade Element Momentum Theory
   - Boundary Element Method (BEM)
@@ -55,22 +51,16 @@ Method:
   - Vortex Lattice Method (VLM)
   - Vortex Particle Method (VPM)
   - Wind Wave Model
-# REQUIRED: The primary technologies applicable to the software package.
 Primary Use:
   - Marine Renewable Energy
   - Offshore Wind
-# OPTIONAL: Programming languages used to create (or operate) the software package.
 Programming Language:
   - C++
-# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
 TRL:
   - 4-6
   - 7-9
-# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
 Technology:
   - Wave
   - Current
-# REQUIRED: The name of the software package.
 Title: QBlade
-# OPTIONAL: The URL of the software package.
 Web Address: https://qblade.org/
