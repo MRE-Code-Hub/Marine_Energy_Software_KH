@@ -19,7 +19,6 @@ Description: >-
   as well as be used in laboratory testing using HIL equipment, leading to improved understanding of MEC performance and lower risk prior to open-water MEC deployment.
 
   The current PBE HIL models that are available are:
-
   Ocean Observation
   Autonomous Underwater Vehicle charging
   Marine energy integration with microgrids (Future)
@@ -46,7 +45,6 @@ License Type:
 # REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
 Life Cycle:
   - Design
-  - Testing
   - Deployment
 
 
