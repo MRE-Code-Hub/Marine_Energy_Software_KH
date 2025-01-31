@@ -1,0 +1,106 @@
+Collection Method:
+  - Modeling
+  - Laboratory
+  - Field
+Cost: Free
+Country of Origin:
+  - Domestic (USA)
+Dependencies:
+  - OWENSAero.jl
+  - OWENSFEA.jl
+  - OWENSPrecomp.jl
+  - OWENSOpenFASTWrappers.jl
+  - Composites.jl
+  - GXBeam.jl
+  - ParaView
+  - WEIS
+Description: >-
+  The OWENS Toolkit (Onshore/Offshore Wind/Water ENergy Simulator) is an aero-hydro-servo-elastic 
+  solver with integrated pre and post processing to enable a parametric end-to-end
+  design tool. The originally intended use of the software focused on crossflow architectures, 
+  which resulted in a generalized multibody modeling approach applicable to a variety of technologies.
+  OWENS itself is an ontology for coupled analysis, and all of the sub-dependices
+  can be run standalone. Many marine considerations neglected in wind applications have been added and
+  development is ongoing in this area. Pure julia execution paths exist and both the native OWENS fluids and 
+  structural modules are gradient safe, but the fluid-structure coupling interface has
+  not yet been made gradient safe. Analysis options with OWENS include unsteady, steady, 
+  and modal analysis, with helper functions to automate design load case (DLC) sweeps and 
+  Campbell Diagrams including added mass effects. Optimization capabilities are available with
+  coupling to WEIS.
+
+  Floating aspects, turbulent inflow including wind-wave coupling, and higher 
+  order vortex and panel methods are inherited from the OpenFAST libraries, which are 
+  primarily Fortran. This also enables multi-turbine modeling for array affected fluid
+  structure interaction. All other aspects from preprocessing to analysis to post processing
+  are 100% Julia. Precompiled OpenFAST library binaries are included for the major
+  operating systems to enable easy installation using the Julia package manager.
+Discipline:
+  - Array Effects
+  - Control
+  - Cost Assessment
+  - Extreme Events
+  - Hydrodynamics
+  - Instrumentation
+  - Levelized Cost of Energy
+  - Materials
+  - Meshing
+  - Mooring
+  - Multibody Dynamics
+  - Optimization
+  - Performance
+  - Power Take Off
+  - Pre-Post Processing
+  - Reliability
+  - Structural
+  - Substructure
+  - Survivability
+  - Turbulence
+  - Visualization
+Funding:
+  - WPTO
+  - WETO
+  - ARPAe
+  - Private
+Interface:
+  - Textual
+License Type:
+  - Open-Source:
+      - L-GPL
+Life Cycle:
+  - Design
+Method:
+  - Actuator Line Method
+  - Actuator Cylinder Method
+  - Boeing Vertol Dynamic Stall
+  - Blade Element Momentum Theory 
+  - Boundary Element Method (BEM)
+  - Classical Laminate Theory (CLT)
+  - Double Multiple Streamtube (DMST)
+  - Finite Element Analysis
+  - Linear Wave Theory
+  - Lumped Mass Method (LMM)
+  - Miner's Fatigue
+  - Modal Analysis
+  - Morrison's Equation
+  - Multipole Expansion
+  - Panel Method
+  - Rainflow Counting
+  - Static Loads
+  - Vortex Lattice Method (VLM)
+  - Vortex Particle Method (VPM)
+  - Wind Wave Model
+Note: Floating aspects, turbulent inflow including wind-wave coupling, and higher order vortex and panel methods are inherited from the OpenFAST libraries, which are primarily Fortran. All other aspects from preprocessing to analysis to post processing are 100% Julia.
+Primary Use:
+  - Marine Renewable Energy
+  - Other
+  - Offshore Wind
+Programming Language:
+  - Julia
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+Technology:
+  - Current
+Title: OWENS Toolkit
+Web Address: https://github.com/sandialabs/OWENS.jl
