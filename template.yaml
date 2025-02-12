@@ -78,6 +78,9 @@ Discipline:
 # OPTIONAL: Sources of funding received for the software package.
 Funding:
   - WPTO
+  - WETO
+  - ARPAe
+  - Private
 # OPTIONAL: The means by which the user interacts with the software.
 Interface:
   - Graphical
@@ -116,19 +119,23 @@ Logo URL: https://example.com/
 # OPTIONAL: Underlying theory or method of the software package.
 Method:
   - Acoustic Wave Equation
+  - Actuator Cylinder Method
   - Actuator Line Method
   - Blade Element Momentum Theory
+  - Boeing Vertol Dynamic Stall
   - Boundary Element Method (BEM)
   - Boussinesq
   - Bubble Image Velocimetry (BIV)
   - Cable Routing
   - Cartesian Cut-Cell
+  - Classical Laminate Theory (CLT)
   - Computational Fluid Dynamics (CFD)
   - Conservation Planning
   - Cummins Equation
   - Data Acquisition
   - Discrete Vortex Method
   - Distribution Management System (DMS)
+  - Double Multiple Streamtube (DMST)
   - Ecological Risk Assessment
   - Energy Balance
   - Environmental Contours
@@ -151,6 +158,7 @@ Method:
   - Marine Spatial Planning (MSP)
   - Maximum Likelihood Estimation
   - Mechanics
+  - Miner's Fatigue
   - Modal Analysis
   - Moment Matching
   - Morrison's Equation
@@ -167,6 +175,7 @@ Method:
   - Pseudo-Spectral
   - Particle Tracking Velocimetry (PTV)
   - Quasi-Static Loads
+  - Rainflow Counting
   - Robotics Middleware
   - SCADA
   - Shallow Water Equations
@@ -201,6 +210,7 @@ Programming Language:
   - Fortran
   - Java
   - JavaScript
+  - Julia
   - MATLAB
   - Python
   - R
