@@ -15,25 +15,29 @@ Dependencies:
   - ParaView
   - WEIS
 Description: >-
-  The OWENS Toolkit (Onshore/Offshore Wind/Water ENergy Simulator) is an aero-hydro-servo-elastic 
-  solver with integrated pre and post processing to enable a parametric end-to-end
-  design tool. The originally intended use of the software focused on crossflow architectures, 
-  which resulted in a generalized multibody modeling approach applicable to a variety of technologies.
-  OWENS itself is an ontology for coupled analysis, and all of the sub-dependices
-  can be run standalone. Many marine considerations neglected in wind applications have been added and
-  development is ongoing in this area. Pure julia execution paths exist and both the native OWENS fluids and 
-  structural modules are gradient safe, but the fluid-structure coupling interface has
-  not yet been made gradient safe. Analysis options with OWENS include unsteady, steady, 
-  and modal analysis, with helper functions to automate design load case (DLC) sweeps and 
-  Campbell Diagrams including added mass effects. Optimization capabilities are available with
-  coupling to WEIS.
+  The OWENS Toolkit (Onshore/Offshore Wind/Water ENergy Simulator) is an
+  aero-hydro-servo-elastic  solver with integrated pre and post processing
+  to enable a parametric end-to-end design tool. The originally intended
+  use of the software focused on crossflow architectures,  which resulted
+  in a generalized multibody modeling approach applicable to a variety
+  of technologies. OWENS itself is an ontology for coupled analysis, and
+  all of the sub-dependices can be run standalone. Many marine considerations
+  neglected in wind applications have been added and development is ongoing
+  in this area. Pure julia execution paths exist and both the native OWENS
+  fluids and  structural modules are gradient safe, but the fluid-structure
+  coupling interface has not yet been made gradient safe. Analysis options
+  with OWENS include unsteady, steady,  and modal analysis, with helper
+  functions to automate design load case (DLC) sweeps and  Campbell Diagrams
+  including added mass effects. Optimization capabilities are available
+  with coupling to WEIS.
 
-  Floating aspects, turbulent inflow including wind-wave coupling, and higher 
-  order vortex and panel methods are inherited from the OpenFAST libraries, which are 
-  primarily Fortran. This also enables multi-turbine modeling for array affected fluid
-  structure interaction. All other aspects from preprocessing to analysis to post processing
-  are 100% Julia. Precompiled OpenFAST library binaries are included for the major
-  operating systems to enable easy installation using the Julia package manager.
+  Floating aspects, turbulent inflow including wind-wave coupling, and
+  higher  order vortex and panel methods are inherited from the OpenFAST
+  libraries, which are  primarily Fortran. This also enables multi-turbine
+  modeling for array affected fluid structure interaction. All other aspects
+  from preprocessing to analysis to post processing are 100% Julia. Precompiled
+  OpenFAST library binaries are included for the major operating systems
+  to enable easy installation using the Julia package manager.
 Discipline:
   - Array Effects
   - Control
@@ -72,7 +76,7 @@ Method:
   - Actuator Line Method
   - Actuator Cylinder Method
   - Boeing Vertol Dynamic Stall
-  - Blade Element Momentum Theory 
+  - Blade Element Momentum Theory
   - Boundary Element Method (BEM)
   - Classical Laminate Theory (CLT)
   - Double Multiple Streamtube (DMST)
@@ -89,7 +93,11 @@ Method:
   - Vortex Lattice Method (VLM)
   - Vortex Particle Method (VPM)
   - Wind Wave Model
-Note: Floating aspects, turbulent inflow including wind-wave coupling, and higher order vortex and panel methods are inherited from the OpenFAST libraries, which are primarily Fortran. All other aspects from preprocessing to analysis to post processing are 100% Julia.
+Note: >-
+  Floating aspects, turbulent inflow including wind-wave coupling, and
+  higher order vortex and panel methods are inherited from the OpenFAST
+  libraries, which are primarily Fortran. All other aspects from preprocessing
+  to analysis to post processing are 100% Julia.
 Primary Use:
   - Marine Renewable Energy
   - Other

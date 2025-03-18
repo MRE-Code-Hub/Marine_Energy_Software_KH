@@ -1,56 +1,41 @@
-# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
 Collection Method:
   - Modeling
-# OPTIONAL: Estimated cost of the software (Free or Paid).
 Cost: Free
-# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
 Country of Origin:
   - Domestic (USA)
-# OPTIONAL: Major dependencies and add-on packages of the software package, e.g. for pre- and post-processing.
 Dependencies:
   - pvlib
   - utide
-# OPTIONAL: The description of the software package.
-Description: >-
-  The goal of the MCOR tool is to provide several viable microgrid configurations that can meet 
-  the resilience goals of a site and maximize economic benefits. This means meeting a set of 
-  critical loads for a specified period of time, without any power supply from the electrical 
-  grid. The tool simulates power dispatch for many different system configurations, and ranks 
-  the systems according to the goals of the site. Currently, MCOR allows users to include PV, 
-  tidal, battery, and back-up diesel resources. 
-# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+Description: "The goal of the MCOR tool is to provide several viable microgrid\
+  \ configurations that can meet  the resilience goals of a site and maximize\
+  \ economic benefits. This means meeting a set of  critical loads for\
+  \ a specified period of time, without any power supply from the electrical\
+  \  grid. The tool simulates power dispatch for many different system\
+  \ configurations, and ranks  the systems according to the goals of the\
+  \ site. Currently, MCOR allows users to include PV,  tidal, battery,\
+  \ and back-up diesel resources. "
 Developer: Pacific Northwest National Laboratory
-# OPTIONAL: Applicable disciplines or functionalities of the software package.
 Discipline:
   - Energy Storage
   - Extreme Events
   - Grid Integration
   - Optimization
-# OPTIONAL: Sources of funding received for the software package.
 Funding:
   - DOD
   - WPTO
-# OPTIONAL: The types, if any, of license governing use and development of the software.
 License Type:
   - Open-Source:
       - BSD
-# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
 Life Cycle:
   - Deployment
-# REQUIRED: The primary technologies applicable to the software package.
 Primary Use:
   - Marine Renewable Energy
   - Microgrids
-# OPTIONAL: Programming languages used to create (or operate) the software package.
 Programming Language:
   - Python
-# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
 TRL:
   - 1-3
-# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
 Technology:
   - Current
-# REQUIRED: The name of the software package.
 Title: Microgrid Component Optimization for Resilience (MCOR)
-# OPTIONAL: The URL of the software package.
 Web Address: https://github.com/pnnl/MCOR
