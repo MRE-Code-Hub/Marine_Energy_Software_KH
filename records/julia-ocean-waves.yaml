@@ -1,28 +1,26 @@
-# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
 Collection Method:
   - Modeling
   - Laboratory
   - Field
-# OPTIONAL: Estimated cost of the software (Free or Paid).
 Cost: Free
-# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
 Country of Origin:
   - Domestic (USA)
-# OPTIONAL: Major dependencies and add-on packages of the software package, e.g. for pre- and post-processing.
 Dependencies:
   - Julia programming language
-# OPTIONAL: The description of the software package.
 Description: >-
-  JuliaOceanWaves is a collection of packages and functions for modeling wave energy converters. 
-  The open-source software is designed to be used by the wave energy community to model new concepts, perform design optimization, and more. 
-  Capabilities include: A representation of ocean wave spectra and input/output (e.g. read from National Oceanic and Atmospheric Administration buoys) and post-processing functionalities; 
-  A solver for the linear potential flow radiation and diffraction equations for wave forcing on floating structures. 
-  Solving the floating body linear dynamics in the frequency domain. 
-  Future additions to the software will include solving non-linear floating body dynamics in the time-domain through time-marching Ordinary Differential Equation solvers and the pseudo-spectral optimization method.
-
-# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+  JuliaOceanWaves is a collection of packages and functions for modeling
+  wave energy converters.  The open-source software is designed to be used
+  by the wave energy community to model new concepts, perform design optimization,
+  and more.  Capabilities include: A representation of ocean wave spectra
+  and input/output (e.g. read from National Oceanic and Atmospheric Administration
+  buoys) and post-processing functionalities;  A solver for the linear
+  potential flow radiation and diffraction equations for wave forcing on
+  floating structures.  Solving the floating body linear dynamics in the
+  frequency domain.  Future additions to the software will include solving
+  non-linear floating body dynamics in the time-domain through time-marching
+  Ordinary Differential Equation solvers and the pseudo-spectral optimization
+  method.
 Developer: Sandia National Laboratories
-# OPTIONAL: Applicable disciplines or functionalities of the software package.
 Discipline:
   - Control
   - Hydrodynamics
@@ -31,36 +29,25 @@ Discipline:
   - Optimization
   - Performance
   - Power Take Off
-# OPTIONAL: Sources of funding received for the software package.
 Funding:
   - WPTO
-# OPTIONAL: The means by which the user interacts with the software.
 Interface:
   - Textual
-# OPTIONAL: The types, if any, of license governing use and development of the software.
 License Type:
   - Open-Source:
       - MIT
-# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
 Life Cycle:
   - Design
-# OPTIONAL: Additional notes relating to the package.
 Note: Experimental code, currently in development.
-# REQUIRED: The primary technologies applicable to the software package.
 Primary Use:
   - Marine Renewable Energy
   - Naval Architecture
   - Offshore Wind
-# OPTIONAL: Programming languages used to create (or operate) the software package.
 Programming Language:
   - Julia
-# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
 TRL:
   - 1-3
-# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
 Technology:
   - Wave
-# REQUIRED: The name of the software package.
 Title: JuliaOceanWaves
-# OPTIONAL: The URL of the software package.
 Web Address: https://github.com/JuliaOceanWaves
