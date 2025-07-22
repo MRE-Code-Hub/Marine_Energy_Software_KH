@@ -1,0 +1,69 @@
+# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
+Collection Method:
+  - Laboratory
+  - Field
+# OPTIONAL: Estimated cost of the software (Free or Paid).
+Cost: Free
+# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
+Country of Origin:
+  - Domestic (USA)
+# OPTIONAL: Major dependencies and add-on packages of the software package, e.g. for pre- and post-processing.
+Dependencies:
+  - LabVIEW
+# OPTIONAL: The description of the software package.
+Description: >-
+  The National Renewable Energy Laboratory (NREL) has developed a data
+  acquisition system to support laboratory (component) and in-water
+  validation and testing of Marine Renewable Energy (MRE) technologies.
+  The Modular Ocean Data AcQuisition System (MODAQ) is a robust system
+  built on industrial grade hardware that can acquire high-quality and
+  summary data from many sensor and instrument types. MODAQ includes
+  modules to perform real-time QC screening, system health monitoring,
+  and send alerts. MODAQ is also part of a larger data management,
+  processing, visualization, and archiving system.
+# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+Developer: NREL
+# OPTIONAL: Applicable disciplines or functionalities of the software package.
+Discipline:
+  - Condition Monitoring
+  - Data QA and QC
+  - Instrumentation
+# OPTIONAL: Sources of funding received for the software package.
+Funding:
+  - WPTO
+# OPTIONAL: The means by which the user interacts with the software.
+Interface:
+  - Graphical
+  - web-API
+  - Web Page
+# OPTIONAL: The types, if any, of license governing use and development of the software.
+License Type:
+  - Open-Source:
+      - BSD
+# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
+Life Cycle:
+  - Condition Monitoring
+  - Operations and Maintenance
+# OPTIONAL: Link to software or company logo.
+Logo URL: https://example.com/
+# OPTIONAL: Underlying theory or method of the software package.
+Method:
+  - Data Acquisition
+# REQUIRED: The primary technologies applicable to the software package.
+Primary Use:
+# OPTIONAL: Programming languages used to create (or operate) the software package.
+Programming Language:
+  - Other
+# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
+TRL:
+  - 1-3
+  - 4-6
+  - 7-9
+# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
+Technology:
+  - Wave
+  - Current
+# REQUIRED: The name of the software package.
+Title: MODAQ
+# OPTIONAL: The URL of the software package.
+Web Address: https://github.com/NREL/MODAQ
