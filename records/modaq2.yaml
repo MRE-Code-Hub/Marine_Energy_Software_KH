@@ -1,66 +1,48 @@
-# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
 Collection Method:
   - Laboratory
   - Field
-# OPTIONAL: Estimated cost of the software (Free or Paid).
 Cost: Free
-# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
 Country of Origin:
   - Domestic (USA)
-# OPTIONAL: Major dependencies and add-on packages of the software package, e.g. for pre- and post-processing.
 Dependencies:
   - Apache Parquet
-# OPTIONAL: The description of the software package.
 Description: >-
   MODAQ 2.0 is the continuation of the Modular Ocean/Offshore Data AcQuisition
   system which offers new benefits of being based on generally available
-  hardware and open-source development tools. The MODAQ 2.0 project is the
-  amalgamation of ROS packages, tools, and guidance for developing data
-  acquisition and control applications for marine energy devices using a ROS2
-  based architecture. The MODAQ 2.0 Reference Design includes several packages
-  that are targeted for the marine energy sector and allow most developers with
-  a basic background in programming to spin up a high-quality DAQ and control
-  system
-# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+  hardware and open-source development tools. The MODAQ 2.0 project is
+  the amalgamation of ROS packages, tools, and guidance for developing
+  data acquisition and control applications for marine energy devices using
+  a ROS2 based architecture. The MODAQ 2.0 Reference Design includes several
+  packages that are targeted for the marine energy sector and allow most
+  developers with a basic background in programming to spin up a high-quality
+  DAQ and control system
 Developer: NREL
-# OPTIONAL: Applicable disciplines or functionalities of the software package.
 Discipline:
   - Data Conversion
   - Data QA and QC
   - Instrumentation
-# OPTIONAL: Sources of funding received for the software package.
 Funding:
   - WPTO
-# OPTIONAL: The means by which the user interacts with the software.
 Interface:
   - Textual
-# OPTIONAL: The types, if any, of license governing use and development of the software.
 License Type:
   - Open-Source:
       - BSD
-# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
 Life Cycle:
   - Condition Monitoring
   - Operations and Maintenance
-# OPTIONAL: Underlying theory or method of the software package.
 Method:
   - Data Acquisition
-# REQUIRED: The primary technologies applicable to the software package.
 Primary Use:
   - Marine Renewable Energy
-# OPTIONAL: Programming languages used to create (or operate) the software package.
 Programming Language:
   - Python
-# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
 TRL:
   - 1-3
   - 4-6
   - 7-9
-# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
 Technology:
   - Wave
   - Current
-# REQUIRED: The name of the software package.
 Title: MODAQ 2.0
-# OPTIONAL: The URL of the software package.
 Web Address: https://github.com/NREL-MODAQ2/MODAQ_toolkit

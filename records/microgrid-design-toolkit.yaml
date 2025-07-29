@@ -1,12 +1,8 @@
-# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
 Collection Method:
   - Modeling
-# OPTIONAL: Estimated cost of the software (Free or Paid).
 Cost: Free
-# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
 Country of Origin:
   - Domestic (USA)
-# OPTIONAL: The description of the software package.
 Description: >-
   Sandia National Laboratories developed the Microgrid Design Toolkit (MDT),
   a decision support software for microgrid designers that is publicly
@@ -14,42 +10,29 @@ Description: >-
   process, MDT uses powerful search algorithms to identify and characterize
   alternative microgrid designs in terms of user-defined inputs and objectives
   such as cost, performance, and reliability.
-# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
 Developer: Sandia National Laboratories
-# OPTIONAL: Applicable disciplines or functionalities of the software package.
 Discipline:
   - Electrical Network
-# OPTIONAL: The means by which the user interacts with the software.
 Interface:
   - Graphical
   - Textual
-# OPTIONAL: The types, if any, of license governing use and development of the software.
 License Type:
   - Open-Source:
       - BSD
-# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
 Life Cycle:
   - Design
-# OPTIONAL: Underlying theory or method of the software package.
 Method:
   - Cable Routing
-  # OPTIONAL: Additional notes relating to the package.
-# REQUIRED: The primary technologies applicable to the software package.
 Primary Use:
   - Other
-# OPTIONAL: Programming languages used to create (or operate) the software package.
 Programming Language:
   - Python
   - Other
-# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
 TRL:
   - 1-3
   - 4-6
   - 7-9
-# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
 Technology:
   - Other
-# REQUIRED: The name of the software package.
 Title: Microgrid Design Toolkit
-# OPTIONAL: The URL of the software package.
 Web Address: https://energy.sandia.gov/programs/electric-grid/advanced-microgrids/microgrid-design-toolkit/
