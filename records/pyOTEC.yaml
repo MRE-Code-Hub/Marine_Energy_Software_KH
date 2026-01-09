@@ -1,51 +1,35 @@
-# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
 Collection Method:
   - Modeling
-# OPTIONAL: Estimated cost of the software (Free or Paid).
 Cost: Free
-# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
 Country of Origin:
   - International
-# OPTIONAL: Major dependencies and add-on packages of the software package, e.g. for pre- and post-processing.
 Dependencies:
   - Anaconda
   - netCDF4
   - cartopy
   - copernicusmarine
-# OPTIONAL: The description of the software package.
 Description: >-
-  pyOTEC designs ocean thermal energy conversion (OTEC) plants for best economic
-  performance under off-design conditions, meaning seasonal fluctuation of ocean
-  thermal energy resources.
-# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+  pyOTEC designs ocean thermal energy conversion (OTEC) plants for best
+  economic performance under off-design conditions, meaning seasonal fluctuation
+  of ocean thermal energy resources.
 Developer: Jannis Langer, Lucas Vatinel
-# OPTIONAL: Applicable disciplines or functionalities of the software package.
 Discipline:
   - Cost Assessment
   - Performance
-# OPTIONAL: The means by which the user interacts with the software.
 Interface:
   - Textual
-# OPTIONAL: The types, if any, of license governing use and development of the software.
 License Type:
   - Open-Source:
       - Other
-# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
 Life Cycle:
   - Design
-# REQUIRED: The primary technologies applicable to the software package.
 Primary Use:
   - Marine Renewable Energy
-# OPTIONAL: Programming languages used to create (or operate) the software package.
 Programming Language:
   - Python
-# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
 TRL:
   - 1-3
-# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
 Technology:
   - OTEC
-# REQUIRED: The name of the software package.
 Title: pyOTEC
-# OPTIONAL: The URL of the software package.
 Web Address: https://github.com/JKALanger/pyOTEC
