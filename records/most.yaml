@@ -1,0 +1,76 @@
+# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
+Collection Method:
+  - Modeling
+# OPTIONAL: Estimated cost of the software (Free or Paid).
+Cost: Free
+# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
+Country of Origin:
+  - International
+# OPTIONAL: Major dependencies and add-on packages of the software package, e.g. for pre- and post-processing.
+Dependencies:
+  - MATLAB
+  - MATLAB Simscape library
+  - WEC-Sim
+# OPTIONAL: The description of the software package.
+Description: >-
+  MOST (Matlab for Offshore Simulation Tool), is a simulation software for
+  simulating floating offshore wind turbines, hybrid wind-wave energy converters,
+  platform with multiple turbines, actively controlled water ballast, etc. It is
+  developed in MATLAB and Simulink which is a user-friendly language and very
+  flexible for user code modification. Another main advantage of MOST is the
+  reduced computational time compared to established codes such as OpenFAST
+  due to the simplification of the aerodynamic computation. Look-up tables of
+  aerodynamic and mooring loads can be obtained during pre-processing further
+  saving computational time during the simulation. MOST also includes the control
+  of the wind turbine which can be chosen between the baseline blade-pitch control
+  and the ROSCO controller. The equation of motion is solved using the MATLAB
+  Simscape library.
+# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+Developer: Marine Offshore Renewable Energy Lab (MOREnergy Lab)
+# OPTIONAL: Applicable disciplines or functionalities of the software package.
+Discipline:
+  - Array Effects
+  - Hybrid Devices
+  - Hydrodynamics
+  - Mooring
+  - Multibody Dynamics
+  - Pre-Post Processing
+  - Power Take Off
+# OPTIONAL: The means by which the user interacts with the software.
+Interface:
+  - Textual
+# OPTIONAL: The types, if any, of license governing use and development of the software.
+License Type:
+  - Open-Source:
+      - Apache
+# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
+Life Cycle:
+  - Design
+# OPTIONAL: Link to software or company logo.
+Logo URL: https://avatars.githubusercontent.com/u/115267893?v=4
+# OPTIONAL: Underlying theory or method of the software package.
+Method:
+  - Boundary Element Method (BEM)
+  - Mechanics
+  - Wave Spectral Analysis
+  - Wind Wave Model
+# OPTIONAL: Additional notes relating to the package.
+Note: Uses WEC-Sim to simulate offshore wind and hybrid wind-water energy systems.
+# REQUIRED: The primary technologies applicable to the software package.
+Primary Use:
+  - Marine Renewable Energy
+  - Offshore Wind
+  - Other
+# OPTIONAL: Programming languages used to create (or operate) the software package.
+Programming Language:
+  - MATLAB
+# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
+TRL:
+  - 1-3
+# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
+Technology:
+  - Wave
+# REQUIRED: The name of the software package.
+Title: MOST (Matlab for Offshore Simulation Tool)
+# OPTIONAL: The URL of the software package.
+Web Address: https://github.com/MOREnergylab/MOST
