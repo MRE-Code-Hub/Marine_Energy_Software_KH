@@ -4,7 +4,7 @@ Cost: Free
 Country of Origin:
   - Domestic (USA)
 Dependencies: OpenFOAM
-Developer: NREL
+Developer: NLR
 Discipline:
   - Array Effects
   - Hydrodynamics
@@ -23,4 +23,4 @@ TRL:
 Technology:
   - Current
 Title: SOWFA
-Web Address: https://github.com/NREL/SOWFA
+Web Address: https://github.com/NatLabRockies/SOWFA
