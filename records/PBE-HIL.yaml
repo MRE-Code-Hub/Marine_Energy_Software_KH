@@ -10,7 +10,7 @@ Dependencies:
   - Python
 Description: >-
   PBE-HIL is a repository of Power Hardware-in-the-loop models developed
-  for typical Powering the Blue Economy market loads and power requirements.
+  for typical power-at-sea market loads and power requirements.
   The HIL models were developed to be as generic and functional as possible,  meaning
   that the user can easily configure these models to represent their unique
   PBE design. These PBE load and power requirement HIL models can then
@@ -22,7 +22,7 @@ Description: >-
   The current PBE HIL models that are available are: Ocean Observation
   Autonomous Underwater Vehicle charging Marine energy integration with
   microgrids (Future)
-Developer: National Renewable Energy Laboratory
+Developer: NLR
 Discipline:
   - Energy Storage
   - Maritime Markets
@@ -55,4 +55,4 @@ Technology:
   - Salinity Gradient
   - Other
 Title: PBE-HIL
-Web Address: https://github.com/NREL/PBE-HIL
+Web Address: https://github.com/NatLabRockies/PBE-HIL
