@@ -16,7 +16,7 @@ Description: >-
   packages that are targeted for the marine energy sector and allow most
   developers with a basic background in programming to spin up a high-quality
   DAQ and control system
-Developer: NREL
+Developer: NLR
 Discipline:
   - Data Conversion
   - Data QA and QC
@@ -45,4 +45,4 @@ Technology:
   - Wave
   - Current
 Title: MODAQ 2.0
-Web Address: https://github.com/NREL-MODAQ2/MODAQ_toolkit
+Web Address: https://github.com/NatLabRockies/MODAQ2
