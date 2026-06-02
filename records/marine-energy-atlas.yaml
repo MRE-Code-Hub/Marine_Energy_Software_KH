@@ -8,7 +8,7 @@ Description: >-
   to explore potential for marine energy resources. Powered by multilab,
   high-resolution data sets, the atlas maps U.S. wave, tidal, riverine
   current, ocean current, and ocean thermal resources.
-Developer: NREL
+Developer: NLR
 Discipline:
   - Performance
   - Site Characterization
@@ -19,7 +19,7 @@ Interface:
 Life Cycle:
   - Deployment
   - Design
-Logo URL: https://www.nrel.gov/assets/images/nrel-logo-web.svg
+Logo URL: https://www.nlr.gov/assets/images/nrel-logo-web.svg
 Method:
   - Geographic Information System (GIS)
 Primary Use:
@@ -33,4 +33,4 @@ Technology:
   - OTEC
   - Wave
 Title: Marine Energy Atlas
-Web Address: https://maps.nrel.gov/marine-energy-atlas
+Web Address: https://maps.nlr.gov/marine-energy-atlas
