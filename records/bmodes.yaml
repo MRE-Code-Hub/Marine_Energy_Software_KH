@@ -17,12 +17,12 @@ Description: >-
   of aeroelastic-stability behavior of turbines. BModes can be used to
   generate the blade and tower mode shapes used by the ElastoDyn module
   of FAST/OpenFAST.
-Developer: NREL
+Developer: NLR
 Discipline:
   - Structural
 Life Cycle:
   - Design
-Logo URL: https://www.nrel.gov/assets/images/nrel-logo-web.svg
+Logo URL: https://www.nlr.gov/assets/images/nrel-logo-web.svg
 Method:
   - Finite Element Analysis
   - Modal Analysis
@@ -34,4 +34,4 @@ TRL:
 Technology:
   - Current
 Title: BModes
-Web Address: https://www.nrel.gov/wind/nwtc/bmodes.html
+Web Address: https://www.nlr.gov/wind/nwtc/bmodes.html
