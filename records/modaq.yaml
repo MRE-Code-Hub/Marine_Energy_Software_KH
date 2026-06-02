@@ -7,10 +7,10 @@ Country of Origin:
 Dependencies:
   - LabVIEW
 Description: >-
-  The National Laboratories of the Rockies (NLR) has developed a data
-  acquisition system to support laboratory (component) and in-water validation
-  and testing of Marine Renewable Energy (MRE) technologies. The Modular
-  Ocean Data AcQuisition System (MODAQ) is a robust system built on industrial
+  The National Laboratories of the Rockies (NLR) has developed a data acquisition
+  system to support laboratory (component) and in-water validation and
+  testing of Marine Renewable Energy (MRE) technologies. The Modular Ocean
+  Data AcQuisition System (MODAQ) is a robust system built on industrial
   grade hardware that can acquire high-quality and summary data from many
   sensor and instrument types. MODAQ includes modules to perform real-time
   QC screening, system health monitoring, and send alerts. MODAQ is also
@@ -33,7 +33,7 @@ License Type:
 Life Cycle:
   - Condition Monitoring
   - Operations and Maintenance
-Logo URL:
+Logo URL: null
 Method:
   - Data Acquisition
 Primary Use: null
