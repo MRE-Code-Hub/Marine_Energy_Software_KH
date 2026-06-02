@@ -10,8 +10,8 @@ Dependencies:
   - Python
 Description: >-
   PBE-HIL is a repository of Power Hardware-in-the-loop models developed
-  for typical power-at-sea market loads and power requirements.
-  The HIL models were developed to be as generic and functional as possible,  meaning
+  for typical power-at-sea market loads and power requirements. The HIL
+  models were developed to be as generic and functional as possible,  meaning
   that the user can easily configure these models to represent their unique
   PBE design. These PBE load and power requirement HIL models can then
   be used to inform marine energy converter (MEC) and power electronics
