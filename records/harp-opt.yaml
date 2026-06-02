@@ -3,7 +3,7 @@ Collection Method:
 Cost: Free
 Country of Origin:
   - Domestic (USA)
-Developer: NREL
+Developer: NLR
 Discipline:
   - Hydrodynamics
   - Performance
@@ -28,4 +28,4 @@ TRL:
 Technology:
   - Current
 Title: HARP_Opt
-Web Address: https://github.com/NREL/HARP_Opt
+Web Address: https://github.com/NatLabRockies/HARP_Opt
