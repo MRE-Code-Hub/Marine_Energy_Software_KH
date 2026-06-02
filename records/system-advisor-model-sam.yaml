@@ -3,7 +3,7 @@ Collection Method:
 Cost: Free
 Country of Origin:
   - Domestic (USA)
-Developer: NREL
+Developer: NLR
 Discipline:
   - Cost Assessment
   - Levelized Cost of Energy
@@ -27,4 +27,4 @@ Technology:
   - Current
   - Wave
 Title: System Advisor Model (SAM)
-Web Address: https://github.com/NREL/SAM
+Web Address: https://github.com/NatLabRockies/SAM
