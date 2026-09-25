@@ -1,0 +1,55 @@
+# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
+Collection Method:
+  - Modeling
+# OPTIONAL: Estimated cost of the software (Free or Paid).
+Cost: Free
+# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
+Country of Origin:
+  - Domestic (USA)
+# OPTIONAL: The description of the software package.
+Description: >-
+This is an open source codebase that uses Multidisciplinary Design Optimization (MDO) to optimize an ocean wave energy converter (WEC). More
+specifically, it is both a multidisciplinary model and a design optimization framework for two-body point absorber WECs. MDOcean uses the SQP
+and pattern search algorithms to find the geometry, PTO, and structural design which optimizes the levelized cost of energy, capital cost,
+and average power of the Reference Model 3 (RM3) WEC, using a fast simplified frequency domain WEC model.
+# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+Developer: Symbiotic Engineering Analysis (SEA) Lab
+# OPTIONAL: Applicable disciplines or functionalities of the software package.
+Discipline:
+  - Hydrodynamics
+  - Levelized Cost of Energy
+  - Multibody Dynamics
+  - Optimization
+  - Performance
+  - Power Take Off
+  - Pre-Post Processing
+# OPTIONAL: The means by which the user interacts with the software.
+Interface:
+  - Textual
+# OPTIONAL: The types, if any, of license governing use and development of the software.
+License Type:
+  - Open-Source:
+      - MIT
+# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
+Life Cycle:
+  - Design
+# OPTIONAL: Underlying theory or method of the software package.
+Method:
+  - Finite Element Analysis
+  - Optimization
+# REQUIRED: The primary technologies applicable to the software package.
+Primary Use:
+  - Marine Renewable Energy
+# OPTIONAL: Programming languages used to create (or operate) the software package.
+Programming Language:
+  - MATLAB
+# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
+TRL:
+  - 1-3
+# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
+Technology:
+  - Wave
+# REQUIRED: The name of the software package.
+Title: MDOcean
+# OPTIONAL: The URL of the software package.
+Web Address: https://github.com/symbiotic-engineering/MDOcean
