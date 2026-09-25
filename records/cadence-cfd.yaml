@@ -1,0 +1,61 @@
+# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
+Collection Method:
+  - Modeling
+# OPTIONAL: Estimated cost of the software (Free or Paid).
+Cost: Paid
+# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
+Country of Origin:
+  - International
+# OPTIONAL: The description of the software package.
+Description: >-
+  Cadence CFD simulation solutions offer dedicated, virtual naval architecture and marine
+  design tools for unparalleled free surface modeling and scalable, highly automated
+  optimization processes.
+
+ Solve and optimize propulsion, resistance, seakeeping, wind studies, and maneuvering in
+ your designs through our dedicated workflows and team in place. Equip yourself with the
+ utmost fidelity accuracy and efficiency with Cadence CFD solutions.
+# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+Developer: Cadance
+# OPTIONAL: Applicable disciplines or functionalities of the software package.
+Discipline:
+  - Hydrodynamics
+  - Meshing
+  - Multibody Dynamics
+  - Performance
+  - Power Take Off
+  - Structural
+  - Turbulence
+  - Visualization
+# OPTIONAL: The means by which the user interacts with the software.
+Interface:
+  - Graphical
+# OPTIONAL: The types, if any, of license governing use and development of the software.
+License Type:
+  - Commercial
+# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
+Life Cycle:
+  - Design
+# OPTIONAL: Underlying theory or method of the software package.
+Method:
+  - Computational Fluid Dynamics (CFD)
+  - Finite Element Analysis
+# REQUIRED: The primary technologies applicable to the software package.
+Primary Use:
+  - Marine Renewable Energy
+  - Naval Architecture
+  - Ocean and Coastal Engineering
+# OPTIONAL: Programming languages used to create (or operate) the software package.
+Programming Language:
+  - Python
+# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
+TRL:
+  - 7-9
+# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
+Technology:
+  - Wave
+  - Current
+# REQUIRED: The name of the software package.
+Title: Cadence CFD
+# OPTIONAL: The URL of the software package.
+Web Address: https://www.cadence.com/en_US/home/tools/system-analysis/computational-fluid-dynamics/marine.html
