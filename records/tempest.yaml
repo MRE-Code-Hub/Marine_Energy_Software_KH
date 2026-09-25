@@ -1,0 +1,53 @@
+# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
+Collection Method:
+  - Modeling
+# OPTIONAL: Estimated cost of the software (Free or Paid).
+Cost: Paid
+# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
+Country of Origin:
+  - International
+# OPTIONAL: The description of the software package.
+Description: >-
+  TEMPEST is a marine operations analysis software simulates whole system, whole lifecycle,
+  operation and maintenance for offshore renewable energy farms. This software simulates
+  the installation, O&M, and decommissioning marine operations in the context of device
+  reliability, vessel capabilities, marine environment (weather windows) and calculates the
+  impact on cost, availability, and energy productivity.
+# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+Developer: Wave Venture
+# OPTIONAL: Applicable disciplines or functionalities of the software package.
+Discipline:
+  - Cost Assessment
+  - Levelized Cost of Energy
+  - Deployment
+  - Maritime Markets
+  - Operations and Maintenance
+  - Visualization
+# OPTIONAL: The means by which the user interacts with the software.
+Interface:
+  - Graphical
+# OPTIONAL: The types, if any, of license governing use and development of the software.
+License Type:
+  - Commercial
+# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
+Life Cycle:
+  - Deployment
+  - Operations and Maintenance
+  - Decommissioning
+# OPTIONAL: Underlying theory or method of the software package.
+Method:
+  - Life Cycle Assessment
+  - Logistics
+# REQUIRED: The primary technologies applicable to the software package.
+Primary Use:
+  - Marine Renewable Energy
+# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
+TRL:
+  - 7-9
+# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
+Technology:
+  - Wave
+# REQUIRED: The name of the software package.
+Title: TEMPEST
+# OPTIONAL: The URL of the software package.
+Web Address: https://www.wave-venture.com/products/tempest/
