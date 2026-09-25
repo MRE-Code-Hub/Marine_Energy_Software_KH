@@ -1,0 +1,77 @@
+# REQUIRED: Point of use of the software package, i.e. the physical source of data transformed by the software.
+Collection Method:
+  - Modeling
+# OPTIONAL: Estimated cost of the software (Free or Paid).
+Cost: Free
+# OPTIONAL: Countries from which the software originates. Particularly useful if the software is only licensed for use within a designated territory.
+Country of Origin:
+  - Domestic (USA)
+# OPTIONAL: The description of the software package.
+Description: >-
+The Monterey Bay Aquarium Research Institute (MBARI) Wave-Energy Converter is a point-absorber type wave-energy converter that has been operating in
+Monterey Bay, CA since 2014. This system was developed as part of MBARI's goals of advancing and demonstrating an autonomous and persistent presence
+of oceanographic instrumentation in the worlds oceans. This project is complemented by developments in autonomous underwater vehicles, underwater
+vehicle docking, oceanographic instrumentation, autonomy, and science use.
+
+The MBARI-WEC is currently maintained by MBARI and operates for six-month periods near the MBARI facility in Moss Landing, California, and averages
+about 250 Watts of power capture, averaged through the weather cycles and seasons.
+
+The MBARI-WEC is a complete system with a four-quadrant electro-hydraulic power-take-off device, board battery storage, control-computers, sensors and
+instrumentation, and an always-on cell-modem connection to the internet. The architecture of the system is such that critical functions are performed
+by micro-controllers throughout the system that implement default behaviors and stream sensor data continuously. A Linux computer on the buoy performs
+data-logging and provides a command interface to the underlying micro-controllers. The system is designed such that the Linux computer is not necessary
+for safe behavior, if this computer re-boots or goes offline, the system will default to safe behaviors. Additionally, the micro-controllers will
+ignore damaging commands from the Linux computer. This architecture allows control algorithms running on the Linux computer to be started, stopped, and
+changed while the device is at sea through the cell-modem connection.
+
+This project provides a software interface to the system to allow such algorithms to be efficiently developed, tested, and executed. Using this interface,
+MBARI intends to make the system available to external researchers. By providing access to the hardware during the ongoing MBARI deployments of this system,
+the intention is to provide access to hardware that is often otherwise unavailable. To facilitate this, the project has developed a simulator that provides
+the same interface as the real hardware, allowing projects the ability to develop and test their work independently, before deployment on the real system
+which will occur under MBARI supervision.
+
+The following sections of this documentation outlines the physical system, describes the software- interfaces available, describes the simulation environment,
+and provides all information needed to interact with this project. The software interface is built upon the ROS 2 framework, and the simulation environment
+uses Gazebo Simulator. In addition to descriptions of these systems, the documentation provides a number of tutorials intended to lead a new user through the
+installation of the necessary tools, basic operation of the system, and provide guidance on implement new algorithms to run on the simulator and ultimately the
+buoy. This is an open-source project with all necessary code and resources freely available.
+
+# OPTIONAL: The name of the software developer, e.g. company, research body, individual.
+Developer: Monterey Bay Aquarium Research Institute (MBARI)
+# OPTIONAL: Applicable disciplines or functionalities of the software package.
+Discipline:
+  - Control
+  - Instrumentation
+  - Multibody Dynamics
+  - Power Take Off
+# OPTIONAL: Sources of funding received for the software package.
+Funding:
+  - WPTO
+# OPTIONAL: The means by which the user interacts with the software.
+Interface:
+  - Graphical
+  - Textual
+# OPTIONAL: The types, if any, of license governing use and development of the software.
+License Type:
+  - Open-Source:
+      - Apache
+# REQUIRED: Applicable marine renewable energy technology life cycle phases for the software package.
+Life Cycle:
+  - Design
+# REQUIRED: The primary technologies applicable to the software package.
+Primary Use:
+  - Marine Renewable Energy
+# OPTIONAL: Programming languages used to create (or operate) the software package.
+Programming Language:
+  - C++
+  - Python
+# REQUIRED: Applicable technology readiness level (TRL) ranges of the technology supported by the software package.
+TRL:
+  - 1-3
+# REQUIRED: Marine renewable energy (MRE) technologies applicable to the software package.
+Technology:
+  - Wave
+# REQUIRED: The name of the software package.
+Title: MBARI-WEC
+# OPTIONAL: The URL of the software package.
+Web Address: https://github.com/osrf/mbari_wec
